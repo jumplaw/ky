@@ -64,16 +64,6 @@
       "filterable": 0
     },
     {
-      "key": "csp_xpath_hhys",
-      "name": "火火（SP）",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": ""
-    },
-    {
       "key": "csp_DY1990",
       "name": "990(SP)",
       "type": 3,
