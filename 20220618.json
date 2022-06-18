@@ -64,6 +64,16 @@
       "filterable": 0
     },
     {
+      "key": "csp_xpath_hhys",
+      "name": "火火（SP）",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
       "key": "csp_DY1990",
       "name": "990(SP)",
       "type": 3,
@@ -74,7 +84,7 @@
     },
     {
       "key": "csp_appysv2_9e国语",
-      "name": "9E国语",
+      "name": "9E国语（V2）",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -83,18 +93,8 @@
       "ext": "http://vod.9e03.com/lvdou_api.php/v1.vod"
     },
     {
-      "key": "csp_xpath_hhys",
-      "name": "火火",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": ""
-    },
-    {
       "key": "csp_appysv2_爱酷影视",
-      "name": "酷酷",
+      "name": "酷酷(V2)",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -104,7 +104,7 @@
     },
     {
       "key": "csp_AppYsV2_美剧范",
-      "name": "美剧",
+      "name": "美剧(V2)",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
