@@ -20,7 +20,7 @@
     },
     {
       "key": "csp_CZSPP",
-      "name": "厂长(SP)",
+      "name": "厂长🐞",
       "type": 3,
       "api": "csp_CZSPP",
       "searchable": 1,
@@ -570,5 +570,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "",
-  "spider": "https://https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;065C92F7720FA01E64086455D201CFE1"
+  "spider": "https://https://kvymin.github.io/CatVod/jar/custom_spider.jar"
 }
