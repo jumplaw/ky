@@ -1,10 +1,37 @@
 {
   "sites": [
     {
+      "key": "csp_360",
+      "name": "360🐞",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_77",
       "name": "七七🏀",
       "type": 3,
       "api": "csp_Kunyu77",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Kuaikan",
+      "name": "快看🐞",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_LiteApple",
+      "name": "苹果🐞",
+      "type": 3,
+      "api": "csp_LiteApple",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -19,17 +46,8 @@
       "filterable": 1
     },
     {
-      "key": "csp_LiteApple",
-      "name": "苹果(SP)",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_DiDuan",
-      "name": "低端(SP)",
+      "name": "低端🐞",
       "type": 3,
       "api": "csp_DiDuan",
       "searchable": 1,
@@ -37,8 +55,35 @@
       "filterable": 1
     },
     {
+      "key": "csp_DY1990",
+      "name": "DY1990🐞",
+      "type": 3,
+      "api": "csp_DY1990",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Blixs",
+      "name": "相声小品🐞",
+      "type": 3,
+      "api": "csp_Blixs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "php_douyu",
+      "name": "😈斗鱼",
+      "type": 1,
+      "api": "http://jb001.eu5.org/tmp/t/u/douyu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "csp_Cokemv",
-      "name": "Cokemv(SP)",
+      "name": "Coke🐞",
       "type": 3,
       "api": "csp_Cokemv",
       "searchable": 1,
@@ -64,49 +109,10 @@
       "filterable": 0
     },
     {
-      "key": "csp_DY1990",
-      "name": "990(SP)",
-      "type": 3,
-      "api": "csp_DY1990",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "csp_appysv2_9e国语",
-      "name": "9E国语（V2）",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://vod.9e03.com/lvdou_api.php/v1.vod"
-    },
-    {
-      "key": "csp_appysv2_爱酷影视",
-      "name": "酷酷(V2)",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
-    },
-    {
-      "key": "csp_AppYsV2_美剧范",
-      "name": "美剧(V2)",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://ttzmz.net/api.php/v1.vod"
-    },
-    {
       "key": "push_agent",
       "name": "推送",
       "type": 3,
-      "api": "csp_Ali",
+      "api": "csp_PushAgent",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -152,7 +158,7 @@
       }
     },
     {
-      "name": "02",
+      "name": "网络搜集02",
       "type": 1,
       "url": "https://json.pangujiexi.com/json.php?url=",
       "ext": {
@@ -168,7 +174,7 @@
       }
     },
     {
-      "name": "03",
+      "name": "网络搜集03",
       "type": 1,
       "url": "https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=",
       "ext": {
@@ -179,7 +185,7 @@
       }
     },
     {
-      "name": "04",
+      "name": "网络搜集04",
       "type": 1,
       "url": "http://api.vip123kan.vip/?url=",
       "ext": {
@@ -199,7 +205,7 @@
       }
     },
     {
-      "name": "05",
+      "name": "网络搜集05",
       "type": 1,
       "url": "https://a.dxzj88.com/jxrrm/jiami.php?url=",
       "ext": {
@@ -228,7 +234,7 @@
       }
     },
     {
-      "name": "06",
+      "name": "网络搜集06",
       "type": 1,
       "url": "https://sz.dxzj88.com/jxrjrm/jiaomi.php?url=",
       "ext": {
@@ -257,7 +263,7 @@
       }
     },
     {
-      "name": "07",
+      "name": "网络搜集07",
       "type": 1,
       "url": "https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=",
       "ext": {
@@ -267,7 +273,7 @@
       }
     },
     {
-      "name": "08",
+      "name": "网络搜集08",
       "type": 1,
       "url": "https://svip.rongxingvr.top/api/?key=niBgMGXVdCQhsmeEBK&url=",
       "ext": {
@@ -561,5 +567,5 @@
     "cms.qdwght.com"
   ],
   "wallpaper": "",
-  "spider": "https://https://kvymin.github.io/CatVod/jar/custom_spider.jar"
+  "spider": "https://kvymin.github.io/CatVod/jar/0618.jar"
 }
