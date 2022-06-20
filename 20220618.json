@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "csp_360",
-      "name": "360🐞",
+      "name": "🎾360〔SP〕",
       "type": 3,
       "api": "csp_SP360",
       "searchable": 1,
@@ -10,8 +10,8 @@
       "filterable": 1
     },
     {
-      "key": "csp_77",
-      "name": "七七🏀",
+      "key": "csp_Kunyu77",
+      "name": "👒七七〔SP〕",
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
@@ -20,7 +20,7 @@
     },
     {
       "key": "csp_Kuaikan",
-      "name": "快看🐞",
+      "name": "🎈快看〔SP〕",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
@@ -29,7 +29,7 @@
     },
     {
       "key": "csp_LiteApple",
-      "name": "苹果🐞",
+      "name": "🍎小苹果〔SP〕",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -38,7 +38,7 @@
     },
     {
       "key": "csp_CZSPP",
-      "name": "厂长🐞",
+      "name": "厂长-蓝光〔SP〕",
       "type": 3,
       "api": "csp_CZSPP",
       "searchable": 1,
@@ -47,7 +47,7 @@
     },
     {
       "key": "csp_DiDuan",
-      "name": "低端🐞",
+      "name": "🌀低端影院〔SP〕",
       "type": 3,
       "api": "csp_DiDuan",
       "searchable": 1,
@@ -56,7 +56,7 @@
     },
     {
       "key": "csp_DY1990",
-      "name": "DY1990🐞",
+      "name": "DY1990〔SP〕",
       "type": 3,
       "api": "csp_DY1990",
       "searchable": 1,
@@ -65,7 +65,7 @@
     },
     {
       "key": "csp_Blixs",
-      "name": "相声小品🐞",
+      "name": "相声小品〔SP〕",
       "type": 3,
       "api": "csp_Blixs",
       "searchable": 1,
@@ -74,7 +74,7 @@
     },
     {
       "key": "php_douyu",
-      "name": "😈斗鱼",
+      "name": "😈斗鱼〔API〕",
       "type": 1,
       "api": "http://jb001.eu5.org/tmp/t/u/douyu.php",
       "searchable": 1,
@@ -83,7 +83,7 @@
     },
     {
       "key": "csp_Cokemv",
-      "name": "Cokemv🐞",
+      "name": "Cokemv〔SP〕",
       "type": 3,
       "api": "csp_Cokemv",
       "searchable": 1,
@@ -92,7 +92,7 @@
     },
     {
       "key": "csp_GitCafe",
-      "name": "纸条📃",
+      "name": "📃小纸条〔SP〕",
       "type": 3,
       "api": "csp_GitCafe",
       "searchable": 1,
@@ -101,7 +101,7 @@
     },
     {
       "key": "csp_AliPanSou",
-      "name": "猫搜😻",
+      "name": "😻猫搜〔SP〕",
       "type": 3,
       "api": "csp_AliPanSou",
       "searchable": 1,
@@ -109,178 +109,178 @@
       "filterable": 0
     },
     {
-            "key": "csp_biubiu_jubb",
-            "name": "剧白白〔XB〕",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/jubb.json"
-        },
-        {
-            "key": "csp_biubiu_ysgc",
-            "name": "影视工厂(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/ysgc.json"
-        },
-        {
-            "key": "csp_biubiu_特狗影视",
-            "name": "特狗影视(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/特狗影视.json"
-        },
-        {
-            "key": "csp_biubiu_555电影",
-            "name": "555电影(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/555电影.json"
-        },
-        {
-            "key": "csp_biubiu_lezhu",
-            "name": "乐猪(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/lezhutv.json"
-        },
-        {
-            "key": "csp_biubiu_YYDS影院",
-            "name": "YYDS影院(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/YYDS影院.json"
-        },
-        {
-            "key": "csp_biubiu_哔嘀影视",
-            "name": "哔嘀影视(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/哔嘀影视.json"
-        },
-        {
-            "key": "csp_xpath_cokemv",
-            "name": "Cokemv(XPF)",
-            "type": 3,
-            "api": "csp_XPathFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XPathFilter/cokemv.json"
-        },
-        {
-            "key": "csp_xpath_libvio",
-            "name": "libvio(XPF)",
-            "type": 3,
-            "api": "csp_XPathFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XPathFilter/libvio.json"
-        },
-        {
-            "key": "csp_xpath_Auete",
-            "name": "Auete(XPF)",
-            "type": 3,
-            "api": "csp_XPathFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XPathFilter/Auete.json"
-        },
-        {
-            "key": "789看片",
-            "name": "789看片(XPF)",
-            "type": 3,
-            "api": "csp_XPathMacFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/789ba.json"
-        },
-        {
-            "key": "Gimy",
-            "name": "Gimy(XPF)",
-            "type": 3,
-            "api": "csp_XPathMacFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy.json"
-        },
-        {
-            "key": "csp_xpath_ddg",
-            "name": "达达龟(XPF)",
-            "type": 3,
-            "api": "csp_XPathMacFilter",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
-        },
-       {
-    "key": "csp_xpath_rttks",
-    "name": "人人影视(XP)",
-    "type": 3,
-    "api": "csp_XPath",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://kvymin.github.io/CatVod/XPath/rttks.json"
-        },
-        {
-            "key": "在线之家",
-            "name": "在线之家",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/Xpath/zxzj.json"
-        },
-        {
-            "key": "动漫84",
-            "name": "动漫84(XP)",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/Xpath/dm84.json"
-        },
-        {
-            "key": "Age动漫",
-            "name": "Age动漫(XP)",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/Xpath/agefans.json"
-        },
+      "key": "csp_biubiu_jubb",
+      "name": "剧白白〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/jubb.json"
+    },
+    {
+      "key": "csp_biubiu_ysgc",
+      "name": "影视工厂〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/ysgc.json"
+    },
+    {
+      "key": "csp_biubiu_特狗影视",
+      "name": "特狗影视〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/特狗影视.json"
+    },
+    {
+      "key": "csp_biubiu_555电影",
+      "name": "555电影〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/555电影.json"
+    },
+    {
+      "key": "csp_biubiu_lezhu",
+      "name": "乐猪〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/lezhutv.json"
+    },
+    {
+      "key": "csp_biubiu_YYDS影院",
+      "name": "YYDS影院〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/YYDS影院.json"
+    },
+    {
+      "key": "csp_biubiu_哔嘀影视",
+      "name": "哔嘀影视〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/哔嘀影视.json"
+    },
+    {
+      "key": "csp_xpath_cokemv",
+      "name": "Cokemv〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathFilter/cokemv.json"
+    },
+    {
+      "key": "csp_xpath_libvio",
+      "name": "libvio〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathFilter/libvio.json"
+    },
+    {
+      "key": "csp_xpath_Auete",
+      "name": "Auete〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathFilter/Auete.json"
+    },
+    {
+      "key": "789看片",
+      "name": "789看片〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/789ba.json"
+    },
+    {
+      "key": "Gimy",
+      "name": "Gimy〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy.json"
+    },
+    {
+      "key": "csp_xpath_ddg",
+      "name": "达达龟〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
+    },
+    {
+      "key": "csp_xpath_rttks",
+      "name": "人人影视〔XP〕",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XPath/rttks.json"
+    },
+    {
+      "key": "在线之家",
+      "name": "在线之家〔XP〕",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/zxzj.json"
+    },
+    {
+      "key": "动漫84",
+      "name": "动漫84〔XP〕",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/dm84.json"
+    },
+    {
+      "key": "Age动漫",
+      "name": "Age动漫〔XP〕",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/agefans.json"
+    },
     {
       "key": "push_agent",
-      "name": "推送",
+      "name": "推送〔SP〕",
       "type": 3,
       "api": "csp_PushAgent",
       "searchable": 0,
@@ -307,16 +307,16 @@
       "type": 3,
       "url": "Demo"
     },
-        {
-            "name": "Json并发",
-            "type": 2,
-            "url": "Parallel"
-        },
-        {
-            "name": "Json轮询",
-            "type": 2,
-            "url": "Sequence"
-        },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
     {
       "name": "01",
       "type": 1,
@@ -415,52 +415,52 @@
         ]
       }
     },
-        {
-            "name": "解析04",
-            "type": 1,
-            "url": "https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=",
-            "ext": {
-                "flag": [
-                    "leduo"
-                ]
-            }
-        },
-        {
-            "name": "05",
-            "type": 1,
-            "url": "https://jhpc.manduhu.com/j1217.php?url=",
-            "ext": {
-                "flag": [
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "mgtv",
-                    "芒果",
-                    "youku",
-                    "优酷",
-                    "pptv",
-                    "PPTV"
-                ]
-            }
-        },
-        {
-            "name": "06",
-            "type": 1,
-            "url": "http://103.40.240.46/jh/?url=",
-            "ext": {
-                "flag": [
-                    "renrenmi",
-                    "qq",
-                    "腾讯",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "xigua",
-                    "西瓜"
-                ]
-            }
-        },
+    {
+      "name": "解析04",
+      "type": 1,
+      "url": "https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=",
+      "ext": {
+        "flag": [
+          "leduo"
+        ]
+      }
+    },
+    {
+      "name": "05",
+      "type": 1,
+      "url": "https://jhpc.manduhu.com/j1217.php?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "mgtv",
+          "芒果",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV"
+        ]
+      }
+    },
+    {
+      "name": "06",
+      "type": 1,
+      "url": "http://103.40.240.46/jh/?url=",
+      "ext": {
+        "flag": [
+          "renrenmi",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "xigua",
+          "西瓜"
+        ]
+      }
+    },
     {
       "name": "07",
       "type": 1,
