@@ -38,7 +38,7 @@
     },
     {
       "key": "csp_CZSPP",
-      "name": "厂长-蓝光〔SP〕",
+      "name": "🚬厂长-蓝光〔SP〕",
       "type": 3,
       "api": "csp_CZSPP",
       "searchable": 1,
@@ -56,7 +56,7 @@
     },
     {
       "key": "csp_DY1990",
-      "name": "DY1990〔SP〕",
+      "name": "🦊DY1990〔SP〕",
       "type": 3,
       "api": "csp_DY1990",
       "searchable": 1,
@@ -65,7 +65,7 @@
     },
     {
       "key": "csp_Blixs",
-      "name": "相声小品〔SP〕",
+      "name": "🎤相声小品〔SP〕",
       "type": 3,
       "api": "csp_Blixs",
       "searchable": 1,
@@ -83,7 +83,7 @@
     },
     {
       "key": "csp_Cokemv",
-      "name": "Cokemv〔SP〕",
+      "name": "🐼Cokemv〔SP〕",
       "type": 3,
       "api": "csp_Cokemv",
       "searchable": 1,
@@ -209,7 +209,7 @@
       "ext": "https://kvymin.github.io/CatVod/XPathFilter/Auete.json"
     },
     {
-      "key": "789看片",
+      "key": "csp_xpath_789看片",
       "name": "789看片〔XPF〕",
       "type": 3,
       "api": "csp_XPathMacFilter",
@@ -219,7 +219,7 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/789ba.json"
     },
     {
-      "key": "Gimy",
+      "key": "csp_xpath_Gimy",
       "name": "Gimy〔XPF〕",
       "type": 3,
       "api": "csp_XPathMacFilter",
@@ -249,7 +249,7 @@
       "ext": "https://kvymin.github.io/CatVod/XPath/rttks.json"
     },
     {
-      "key": "在线之家",
+      "key": "csp_xpath_在线之家",
       "name": "在线之家〔XP〕",
       "type": 3,
       "api": "csp_XPath",
@@ -259,7 +259,7 @@
       "ext": "https://kvymin.github.io/CatVod/Xpath/zxzj.json"
     },
     {
-      "key": "动漫84",
+      "key": "csp_xpath_动漫84",
       "name": "动漫84〔XP〕",
       "type": 3,
       "api": "csp_XPath",
@@ -269,7 +269,7 @@
       "ext": "https://kvymin.github.io/CatVod/Xpath/dm84.json"
     },
     {
-      "key": "Age动漫",
+      "key": "csp_xpath_Age动漫",
       "name": "Age动漫〔XP〕",
       "type": 3,
       "api": "csp_XPath",
