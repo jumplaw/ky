@@ -73,6 +73,24 @@
       "filterable": 1
     },
     {
+      "key": "php_开麦K歌找人",
+      "name": "开麦K歌找人〔API〕",
+      "type": 1,
+      "api": "http://jb001.eu5.org/tmp/t/u/kmkg.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "php_开麦K歌找歌",
+      "name": "开麦K歌找歌〔API〕",
+      "type": 1,
+      "api": "http://jb001.eu5.org/tmp/t/u/kmkgct.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },    
+    {
       "key": "php_douyu",
       "name": "😈斗鱼〔API〕",
       "type": 1,
