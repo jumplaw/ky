@@ -10,39 +10,6 @@
       "filterable": 0
     },
     {
-      "key": "xuangz",
-      "name": "六度（爬虫）",
-      "type": 1,
-      "api": "http://xiaoguozitv.cn/catys/xuangz.php"
-    },
-    {
-      "key": "libvio",
-      "name": "libvio（爬虫）",
-      "type": 1,
-      "api": "http://xiaoguozitv.cn/catys/libvio.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "cokemv",
-      "name": "cokemv（爬虫）",
-      "type": 1,
-      "api": "http://xiaoguozitv.cn/catys/cokemv.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "ysgc",
-      "name": "ysgc（爬虫）",
-      "type": 1,
-      "api": "http://xiaoguozitv.cn/catys/ysgc.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "乐多采集",
       "name": "乐多采集",
       "type": 0,
@@ -244,6 +211,39 @@
       "api": "http://47.97.68.224/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1
+    },
+    {
+      "key": "xuangz",
+      "name": "六度（爬虫）",
+      "type": 1,
+      "api": "http://xiaoguozitv.cn/catys/xuangz.php"
+    },
+    {
+      "key": "libvio",
+      "name": "libvio（爬虫）",
+      "type": 1,
+      "api": "http://xiaoguozitv.cn/catys/libvio.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cokemv",
+      "name": "cokemv（爬虫）",
+      "type": 1,
+      "api": "http://xiaoguozitv.cn/catys/cokemv.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "ysgc",
+      "name": "ysgc（爬虫）",
+      "type": 1,
+      "api": "http://xiaoguozitv.cn/catys/ysgc.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "千寻影视",
