@@ -13,10 +13,7 @@
       "key": "libvio",
       "name": "libvio（PHP爬虫）",
       "type": 1,
-      "api": "http://http://xiaoguozitv.cn/catys/libvio.php"      
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
+      "api": "http://http://xiaoguozitv.cn/catys/libvio.php"
     },
     {
       "key": "xuangz",
