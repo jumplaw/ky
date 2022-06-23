@@ -10,15 +10,6 @@
       "filterable": 0
     },
     {
-      "key": "libvio",
-      "name": "libvio（爬虫）",
-      "type": 1,
-      "api": "http://xiaoguozitv.cn/catys/libvio.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "xuangz",
       "name": "六度（爬虫）",
       "type": 1,
