@@ -10,33 +10,6 @@
       "filterable": 0
     },
     {
-      "key": "libvio(php)",
-      "name": "libvio(php)",
-      "type": 1,
-      "api": "http://xiaoguozitv.cn/catys/libvio.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "Cokemv(php)",
-      "name": "Cokemv(php)",
-      "type": 1,
-      "api": "https://kvymin.github.io/CatVod/PHP/Cokemv.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "lezhutv(php)",
-      "name": "lezhutv(php)",
-      "type": 1,
-      "api": "https://kvymin.github.io/CatVod/PHP/lezhutv.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "xuangz",
       "name": "六度（爬虫）",
       "type": 1,
