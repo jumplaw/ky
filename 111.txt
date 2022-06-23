@@ -9,7 +9,7 @@
       "quickSearch": 1,
       "filterable": 0
     },
-   {
+    {
       "key": "xuangz",
       "name": "六度（爬虫）",
       "type": 1,
@@ -20,7 +20,7 @@
       "name": "乐多采集",
       "type": 0,
       "api": "https://cj.leduocaiji.com/inc/api.php",
-      "playUrl": "https://a.dxzj88.com/jxrrm/jiami.php?url=",
+      "playUrl": "https://api.xxctzy.com/1.php?vid=",
       "categories": [
         "综艺",
         "动作片",
@@ -76,7 +76,7 @@
       "name": "8090",
       "type": 0,
       "api": "http://zy.yilans.net:8090/api.php/provide/vod/at/xml",
-      "playUrl": "https://json.5lp.net/json.php?url=",
+      "playUrl": "https://jx.renrenmi.cc/?url=",
       "categories": [
         "动作片",
         "喜剧片",
@@ -114,7 +114,7 @@
       "name": "📹️诺讯 ",
       "type": 1,
       "api": "http://caiji.nxflv.com/api.php/provide/vod/",
-      "playUrl": "https://json.5lp.net/json.php?url=",
+      "playUrl": "https://www.nxflv.com/?url=",
       "searchable": 1,
       "quickSearch": 1
     },
