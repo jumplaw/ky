@@ -9,19 +9,7 @@
       "quickSearch": 1,
       "filterable": 0
     },
-    {
-      "key": "csp_Kunyu77",
-      "name": "酷云77(爬虫)",
-      "type": 1,
-      "api": "http://api.kunyu77.com/api.php"
-    },
-    {
-      "key": "乐猪",
-      "name": "📽︎乐猪（爬虫）",
-      "type": 1,
-      "api": "https://kvymin.github.io/CatVod/PHP/lezhutv.php"
-    },
-    {
+   {
       "key": "xuangz",
       "name": "六度（爬虫）",
       "type": 1,
