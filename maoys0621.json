@@ -128,6 +128,16 @@
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/sub/Bili.json"
     },
+        {
+            "key": "csp_biubiu_ysgc",
+            "name": "影视工厂(XB)",
+            "type": 3,
+            "api": "csp_XBiubiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kvymin.github.io/CatVod/XBiubiu/ysgc.json"
+        },
     {
       "key": "AliPS",
       "name": "盘搜〔SP〕",
@@ -186,16 +196,16 @@
       "filterable": 1,
       "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
     },
-    {
-      "key": "csp_appysv2_南府",
-      "name": "南府〔V2〕",
-      "type": "3",
-      "api": "csp_AppYsV2",
-      "searchable": "1",
-      "quickSearch": "1",
-      "filterable": "1",
-      "ext": "http://iapp.nfuxs.club/nfuxs.php/v1.vod"
-    },
+       {
+            "key": "csp_biubiu_lezhu",
+            "name": "乐猪(XB)",
+            "type": 3,
+            "api": "csp_XBiubiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://kvymin.github.io/CatVod/XBiubiu/lezhutv.json"
+        },
     {
       "key": "push_agent",
       "name": "推送",
