@@ -120,13 +120,13 @@
     },
     {
       "key": "Bili",
-      "name": "Bili",
+      "name": "B站",
       "type": 3,
       "api": "csp_Bili〔SP〕",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/sub/Bili.json"
+      "ext": "https://kvymin.github.io/CatVod/sub/B站.json"
     },
         {
             "key": "csp_biubiu_ysgc",
