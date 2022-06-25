@@ -25,7 +25,8 @@
       "api": "csp_LiteApple",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext":"http://app.grelighting.cn/api.php/v1.vod"
     },
     {
       "key": "快看",
