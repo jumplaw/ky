@@ -120,16 +120,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "csp_LiteApple",
-      "name": "苹果影视",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://app.grelighting.cn/api.php/v1.vod"
-    },
+   // {"key":"csp_LiteApple","name":"苹果影视","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.grelighting.cn/api.php/v1.vod"},
     {
       "key": "csp_GitCafe",
       "name": "阿里纸条",
@@ -198,16 +189,7 @@
       "filterable": 1,
       "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
     },
-    {
-      "key": "csp_appysv2_南府",
-      "name": "南府(v2)",
-      "type": "3",
-      "api": "csp_AppYsV2",
-      "searchable": "1",
-      "quickSearch": "1",
-      "filterable": "1",
-      "ext": "http://iapp.nfuxs.club/nfuxs.php/v1.vod"
-    },
+   // {"key":"csp_appysv2_南府","name":"南府(v2)","type":"3","api":"csp_AppYsV2","searchable":"1","quickSearch":"1","filterable":"1","ext":"http://iapp.nfuxs.club/nfuxs.php/v1.vod"},
     {
       "key": "csp_BBB",
       "name": "bilibili",
