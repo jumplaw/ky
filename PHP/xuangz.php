@@ -1,1 +1,0 @@
-{"class":[{"type_id":1,"type_name":"电 影"},{"type_id":2,"type_name":"电视 剧"},{"type_id":3,"type_name":"动漫"},{"type_id":4,"type_name":"综艺"},{"type_id":5,"type_name":"全网资源"},{"type_id":6,"type_name":"【全网资源】电 影"},{"type_id":7,"type_name":"【全网资源】电视 剧"},{"type_id":8,"type_name":"【全网资源】动漫"},{"type_id":9,"type_name":"【全网资源】综艺"}]}
