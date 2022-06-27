@@ -120,7 +120,7 @@
       "ext": ""
     },
     {
-      "key": "spider_IKan",
+      "key": "csp_IKan",
       "name": "💖爱看(SP)",
       "type": 3,
       "api": "csp_IKan",
@@ -138,7 +138,7 @@
       "filterable": 1
     },
     {
-      "key": "Gitcafe",
+      "key": "csp_Gitcafe",
       "name": "小纸条",
       "type": 3,
       "api": "csp_Gitcafe",
@@ -157,10 +157,10 @@
       "filterable": 1
     },
     {
-      "key": "AliPS",
+      "key": "csp_AliPanSou",
       "name": "盘搜",
       "type": 3,
-      "api": "csp_AliPS",
+      "api": "csp_AliPanSou",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -177,7 +177,7 @@
     },
     {
       "key": "9E03",
-      "name": "9E03(v2)",
+      "name": "9E03(V2)",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -187,7 +187,7 @@
     },
     {
       "key": "300看世界",
-      "name": "300看世界(v2)",
+      "name": "300看世界(V2)",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -207,7 +207,7 @@
     },
     {
      "key": "爱酷",
-     "name": "爱酷〔(v2)〕",
+     "name": "爱酷〔V2〕",
      "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -217,7 +217,7 @@
         },
     {
       "key": "美剧虫",
-      "name": "美剧虫(v1)",
+      "name": "美剧虫(V1)",
       "type": 3,
       "api": "csp_AppYs",
       "searchable": 1,
