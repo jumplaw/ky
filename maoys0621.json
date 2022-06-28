@@ -246,6 +246,16 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/lezhutv.json"
     },
     {
+      "key":"csp_大米星球",
+      "name":"🍚大米(B)",
+      "type":3,
+      "api":"csp_XBiubiu",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"https://kvymin.github.io/CatVod/XBiubiu/dmxq.js"
+    },
+    {
       "key": "789看片",
       "name": "789看片(XP)",
       "type": 3,
