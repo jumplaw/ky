@@ -285,7 +285,7 @@
       "key": "csp_xpath_saohuo",
       "name": "骚火电影(XP)",
       "type": 3,
-      "api": "csp_XPath",
+      "api": "csp_XPathMac",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
