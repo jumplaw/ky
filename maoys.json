@@ -121,24 +121,6 @@
       "filterable": 1
     },
    // {"key":"csp_LiteApple","name":"苹果影视","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.grelighting.cn/api.php/v1.vod"},
-    {
-      "key": "csp_GitCafe",
-      "name": "阿里纸条",
-      "type": 3,
-      "api": "csp_GitCafe",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "csp_AliPanSou",
-      "name": "阿里喵搜",
-      "type": 3,
-      "api": "csp_AliPanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
    //{"key":"9E03","name":"9E03(V2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://vod.9e03.com/lvdou_api.php/v1.vod"},
     {
       "key": "300看世界",
@@ -190,6 +172,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
+   //{"key":"Bili","name":"哔哩套餐","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/sub/bili.json"},
     {
       "key": "csp_Blixs",
       "name": "相声小品",
@@ -277,6 +260,16 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/lezhutv.json"
     },
     {
+      "key": "csp_xpath_乐猪TV",
+      "name": "🦋乐猪TV",
+      "type": 3,
+      "api": "csp_XPathMac",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
+    },
+    {
       "key": "csp_biubiu_YYDS影院",
       "name": "YYDS影院(XB)",
       "type": 3,
@@ -357,6 +350,16 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
     },
     {
+      "key": "csp_xpath_saohuo",
+      "name": "🦋骚火电影",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XPath/saohuotv.json"
+    },
+    {
       "key": "csp_xpath_rttks",
       "name": "人人影视(XP)",
       "type": 3,
@@ -377,6 +380,62 @@
       "ext": "https://kvymin.github.io/CatVod/Xpath/zxzj.json"
     },
     {
+      "key": "csp_xpath_2gangju",
+      "name": "🦋爱港剧",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/2gangju.json"
+    },
+    {
+      "key": "csp_xpath_nmys",
+      "name": "🦋农民影视",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathFilter/nmys.json"
+    },
+    {
+      "key": "csp_xml_8090",
+      "name": "💢8090 资源",
+      "type": 1,
+      "api": "http://zy.yilans.net:8090/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "csp_xml_小猫咪",
+      "name": "💢小 猫 咪",
+      "type": 1,
+      "api": "https://zy.xiaomaomi.cc/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "csp_xml_追剧官采",
+      "name": "💢追剧官采",
+      "type": 1,
+      "api": "http://gc.zhuijuba.vip/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "csp_PHP_WMKK",
+      "name": "🛴完美看看",
+      "type": 1,
+      "api": "http://api.flypotato.xyz/wmkk.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "动漫84",
       "name": "动漫84(XP)",
       "type": 3,
@@ -395,6 +454,24 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/Xpath/agefans.json"
+    }, 
+    {
+      "key": "csp_GitCafe",
+      "name": "阿里纸条",
+      "type": 3,
+      "api": "csp_GitCafe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "csp_AliPanSou",
+      "name": "阿里喵搜",
+      "type": 3,
+      "api": "csp_AliPanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "push_agent",
