@@ -282,26 +282,6 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
     },
     {
-      "key": "csp_xpath_saohuo",
-      "name": "骚火电影(XP)",
-      "type": 3,
-      "api": "csp_XPathMac",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XPath/saohuotv.json"
-    },
-    {
-      "key": "csp_xpath_rttks",
-      "name": "人人影视(XP)",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XPath/rttks.json"
-    },
-    {
       "key": "在线之家",
       "name": "在线之家(XP)",
       "type": 3,
