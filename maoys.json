@@ -103,15 +103,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_Kmys",
-      "name": "酷猫影视",
-      "type": 3,
-      "api": "csp_Kmys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Bttoo",
       "name": "两个BT",
       "type": 3,
@@ -161,51 +152,6 @@
       "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
     },
     {
-      "key": "csp_BBB",
-      "name": "bilibili",
-      "type": 3,
-      "api": "csp_BBB",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Blixs",
-      "name": "相声小品",
-      "type": 3,
-      "api": "csp_Blixs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Bliyc",
-      "name": "演唱会",
-      "type": 3,
-      "api": "csp_Bliyc",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Blidw",
-      "name": "动物世界",
-      "type": 3,
-      "api": "csp_Blidw",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Blixq",
-      "name": "戏曲",
-      "type": 3,
-      "api": "csp_Blixq",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_biubiu_jubb",
       "name": "剧白白〔XB〕",
       "type": 3,
@@ -247,7 +193,7 @@
     },
     {
       "key": "csp_xpath_乐猪TV",
-      "name": "乐猪TV",
+      "name": "乐猪(XPM)",
       "type": 3,
       "api": "csp_XPathMac",
       "searchable": 1,
@@ -337,7 +283,7 @@
     },
     {
       "key": "csp_xpath_saohuo",
-      "name": "骚火电影",
+      "name": "骚火电影(XP)",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
@@ -357,7 +303,7 @@
     },
     {
       "key": "在线之家",
-      "name": "在线之家",
+      "name": "在线之家(XP)",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
@@ -367,7 +313,7 @@
     },
     {
       "key": "csp_xpath_2gangju",
-      "name": "爱港剧",
+      "name": "爱港剧(XPF)",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -377,7 +323,7 @@
     },
     {
       "key": "csp_xpath_nmys",
-      "name": "农民影视",
+      "name": "农民影视(XPF)",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
