@@ -152,6 +152,16 @@
       "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
     },
     {
+      "key":"csp_biubiu_dmxq",
+      "name":"大米星球(XB)",
+      "type":3,
+      "api":"csp_XBiubiu",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"https://kvymin.github.io/CatVod/XBiubiu/dmxq.json"
+    },
+    {
       "key": "csp_biubiu_jubb",
       "name": "剧白白〔XB〕",
       "type": 3,
