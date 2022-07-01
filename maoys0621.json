@@ -42,7 +42,7 @@
     },
     {
       "key": "csp_Zxzj",
-      "name": "🐼在线之家(SP)",
+      "name": "🐱在线之家(SP)",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
@@ -60,7 +60,7 @@
     },
     {
       "key": "csp_Buka",
-      "name": "🐼真不卡(SP)",
+      "name": "🦊真不卡(SP)",
       "type": 3,
       "api": "csp_Buka",
       "searchable": 1,
@@ -69,7 +69,7 @@
     },
     {
       "key": "csp_Auete",
-      "name": "🐼Auete(SP)",
+      "name": "🎤Auete(SP)",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -105,7 +105,7 @@
     },
     {
       "key": "csp_Nbys",
-      "name": "🐼泥巴(SP需翻墙)",
+      "name": "🥒泥巴(SP需翻墙)",
       "type": 3,
       "api": "csp_Nbys",
       "searchable": 1,
@@ -170,7 +170,7 @@
     },
     {
       "key": "csp_AliPanSou",
-      "name": "盘搜",
+      "name": "👒盘搜",
       "type": 3,
       "api": "csp_AliPanSou",
       "searchable": 1,
@@ -226,7 +226,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
-        },
+    },
     {
       "key": "美剧虫",
       "name": "美剧虫(V1)",
