@@ -1,5 +1,5 @@
 {
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;MD5;0b697e824fb3cbb4a5259c1f51cdea36",
   "sites": [
     {
       "key": "csp_CZSPP",
