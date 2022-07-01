@@ -1,5 +1,7 @@
 
 {
+  "spider": "https://kvymin.github.io/CatVod/jar/XBiubiuLA3.jar;md5;c3c380484e8e036a8bbc420acae273ca",
+  
   "sites": [
    {
       "key": "csp_SP360",
@@ -686,6 +688,5 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ],
-    "spider": "https://kvymin.github.io/CatVod/jar/XBiubiuLA3.jar;md5;c3c380484e8e036a8bbc420acae273ca"
+  ]
 }
