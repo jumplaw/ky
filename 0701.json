@@ -1,5 +1,5 @@
 {
-  "spider": "https://kvymin.github.io/CatVod/jar/0701.jar",
+  "spider": "https://kvymin.github.io/CatVod/jar/0701.jar;MD5;0786038f127a1764ddc9e9dabe44fa07",
 
   "sites": [
   {"key":"厂长影视","name":"厂长影视","type":3,"api":"csp_Czsapp","searchable":1,"quickSearch":1,"filterable":1},
