@@ -33,7 +33,7 @@
     },
     {
       "key": "csp_Kuaikan",
-      "name": "🎈快看(SP)",
+      "name": "👀快看(SP)",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
@@ -189,7 +189,7 @@
     },
     {
       "key": "9E03",
-      "name": "9E03(V2)",
+      "name": "📮9E03(V2)",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -199,7 +199,7 @@
     },
     {
       "key": "300看世界",
-      "name": "300看世界(V2)",
+      "name": "🎬300看世界(V2)",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -209,7 +209,7 @@
     },
     {
       "key": "钟特影视",
-      "name": "钟特影视(v2)",
+      "name": "🌏钟特影视(v2)",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -219,7 +219,7 @@
     },
     {
      "key": "爱酷",
-     "name": "爱酷〔V2〕",
+     "name": "📺爱酷〔V2〕",
      "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -229,7 +229,7 @@
     },
     {
       "key": "美剧虫",
-      "name": "美剧虫(V1)",
+      "name": "✈️美剧虫(V1)",
       "type": 3,
       "api": "csp_AppYs",
       "searchable": 1,
@@ -239,7 +239,7 @@
     },
     {
       "key": "csp_biubiu_ysgc",
-      "name": "影视工厂(XB)",
+      "name": "🏠影视工厂(XB)",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
@@ -249,7 +249,7 @@
     },
     {
       "key": "csp_biubiu_lezhu",
-      "name": "乐猪影视(XB)",
+      "name": "🎁乐猪影视(XB)",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
@@ -269,7 +269,7 @@
     },
     {
       "key": "789看片",
-      "name": "789看片(XP)",
+      "name": "🔥789看片(XP)",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -279,7 +279,7 @@
     },
     {
       "key": "Gimy",
-      "name": "Gimy(XP)",
+      "name": "📀Gimy(XP)",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -289,7 +289,7 @@
     },
     {
       "key": "Age动漫",
-      "name": "Age动漫(XP)",
+      "name": "🐬Age动漫(XP)",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
