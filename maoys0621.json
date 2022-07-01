@@ -4,10 +4,28 @@
   
   "sites": [
    {
+      "key": "csp_CZSPP",
+      "name": "🚬厂长(SP)",
+      "type": 3,
+      "api": "csp_CZSPP",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+   },
+   {
       "key": "csp_SP360",
       "name": "🎾360(SP)",
       "type": 3,
       "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }, 
+    {
+      "key": "csp_Kunyu77",
+      "name": "👒七七(SP)",
+      "type": 3,
+      "api": "csp_Kunyu77",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -21,25 +39,8 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "csp_LiteApple",
-      "name": "🍎小苹果(V2)",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext":"http://app.grelighting.cn/api.php/v1.vod"
-    },
-    {
-      "key": "csp_Kunyu77",
-      "name": "👒七七(SP)",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+    //{"key": "csp_LiteApple","name": "🍎小苹果(V2)","type": 3,"api":"csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"http://app.grelighting.cn/api.php/v1.vod"},
+ 
     {
       "key": "csp_Zxzj",
       "name": "🐱在线之家(SP)",
@@ -86,28 +87,10 @@
       "filterable": 1
     },
     {
-      "key": "csp_CZSPP",
-      "name": "🚬厂长(SP)",
-      "type": 3,
-      "api": "csp_CZSPP",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Bttoo",
       "name": "🎈两个BT",
       "type": 3,
       "api": "csp_Bttoo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Nbys",
-      "name": "🥒泥巴(SP需翻墙)",
-      "type": 3,
-      "api": "csp_Nbys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -150,6 +133,24 @@
       "filterable": 1
     },
     {
+      "key": "csp_BBB",
+      "name": "🅱哔哩套餐",
+      "type": 3,
+      "api": "csp_BBB",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Nbys",
+      "name": "🥒泥巴(SP需翻墙)",
+      "type": 3,
+      "api": "csp_Nbys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_Gitcafe",
       "name": "📃小纸条",
       "type": 3,
@@ -158,15 +159,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "dcbc975ad0684eb5a498ecd1836272e6"
-    },
-    {
-      "key": "csp_BBB",
-      "name": "🅱哔哩套餐",
-      "type": 3,
-      "api": "csp_BBB",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1
     },
     {
       "key": "csp_AliPanSou",
