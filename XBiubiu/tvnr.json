@@ -1,7 +1,7 @@
 {
   "author": "",
   "name": "티비나라",
-  "url": "http://tvnara62.net", //填网站链接
+  "url": "http://tvnara64.net", //填网站链接
   "tihuan": "cnzz.com", //这个不用动，是个别网站嗅探时过滤地址用的
   "User": "空", //这个不用动，是个别网站播放需要请求头时才用到
   //"User": "User-Agent:Dart/2.14 (dart:io)",
