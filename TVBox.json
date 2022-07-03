@@ -1,4 +1,6 @@
-{
+{    
+   "spider": "https://kvymin.github.io/CatVod/jar/0701.jar;md5;449aa602dce7e45af933e7afc05a07ea",
+    
     "sites": [
         {
             "key": "360",
@@ -1228,6 +1230,5 @@
         "qiu.xixiqiu.com",
         "cdnjs.hnfenxun.com",
         "cms.qdwght.com"
-    ],
-    "spider": "https://kvymin.github.io/CatVod/jar/XBiubiuLA3.jar"
+    ]
 }
