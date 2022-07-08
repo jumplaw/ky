@@ -215,7 +215,7 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/jubaibai.json"
      },    
      {
-     "key":"csp_xpath_ddg"
+     "key":"csp_xpath_ddg",
      "name":"达达龟(XPF)",
      "type":3,
      "api":"csp_XPathMacFilter",
