@@ -213,6 +213,26 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/jubaibai.json"
+     },    
+     {
+     "key":"csp_xpath_ddg"
+     "name":"达达龟(XPF)",
+     "type":3,
+     "api":"csp_XPathMacFilter",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":1,
+     "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
+     },
+     {
+     "key":"csp_xpath_rttks",
+     "name":"人人影视(XP)",
+     "type":3,
+     "api":"csp_XPath",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":0,
+     "ext":"https://kvymin.github.io/CatVod/XPath/rttks.json"
      },
      {
       "key":"csp_xpath_naifeiorg",
