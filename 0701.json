@@ -94,26 +94,6 @@
       "filterable": 1
     },
     {
-      "key": "9E03",
-      "name": "9E03（V2）",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"
-    },
-    {
-    "key":"csp_appys_美剧虫",
-    "name":"🐞美剧虫(V1)",
-    "type":3,
-    "api":"csp_AppYs",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "ext":"https://meijuchong.com/api.php/v1.vod"
-    },
-    {
       "key": "Kuaikan",
       "name": "快看",
       "type": 3,
@@ -166,6 +146,34 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "9E03",
+      "name": "9E03（V2）",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"
+    },
+    {
+    "key":"csp_appys_美剧虫",
+    "name":"🐞美剧虫(V1)",
+    "type":3,
+    "api":"csp_AppYs",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "ext":"https://meijuchong.com/api.php/v1.vod"
+    },
+    {
+    "key":"海外电影",
+    "name":"🌈海外电影(聚)",
+    "type":1,
+    "api":"https://www.200121.com/api.php/provide/vod/",
+    "searchable":1,
+    "quickSearch":1
     },
     {
       "key": "Bili",
