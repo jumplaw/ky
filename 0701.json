@@ -255,6 +255,7 @@
       "filterable": 0,
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/555电影.json"
     },
+    {"key": "旋风","name": "旋风[EXO]","type": 1,"api": "http://appimg.ssxmall.cn/api.php/provide/vod/","playUrl": "json:https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url=","searchable": 1,"filterable": 1,"categories":[]},
     {
       "key": "AliPS",
       "name": "盘搜",
