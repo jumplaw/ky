@@ -186,13 +186,13 @@
     },
     {
      "key":"csp_Xpath_lezhu",
-     "name":"乐猪影视(XB)",
+     "name":"乐猪影视(XPM)",
      "type":3,
      "api":"csp_XPathMac",
      "searchable":1,
      "quickSearch":1,
      "filterable":1,
-     "ext":"https://kvymin.github.io/CatVod/csp_XPathMac/lezhutv.json"
+     "ext":"https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
      },
      {
       "key":"csp_biubiu_dmxq",
