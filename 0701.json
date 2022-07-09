@@ -308,16 +308,10 @@
   {"name":"解析聚合","type":3,"url":"Demo"},
   {"name":"Json并发","type":2,"url":"Parallel"},
   {"name":"Json轮询","type":2,"url":"Sequence"},
-  {"name":"293","type":1,"url":"http://81.71.48.249:4456/jsonc/longxia.php?url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
-  {"name":"Pro","type":1,"url":"https://good-vip.mmiyue.com/zhenbuka2/api/svip/HaShrcJUHwtH7TDdgUzHaWvJ1lWUZWiK.php?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"]}},
-  {"name":"05","type":1,"url":"https://a.dxzj88.com/jxrrm/jiami.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"]}},
-  {"name":"06","type":1,"url":"https://sz.dxzj88.com/jxrjrm/jiaomi.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"]}},
-  {"name":"09","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url="},
-  {"name":"10","type":1,"url":"https://za.kuanjv.com/?url="},
-  {"name":"01","type":1,"url":"http://jx.vipmv.co/?url="},
-  {"name":"11","type":1,"url":"http://106.52.218.221:88/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
-  {"name":"02","type":1,"url":"http://103.40.240.46/jh/?url=","ext":{"flag":["renrenmi","qq","腾讯","youku","优酷","mgtv","芒果","xigua","西瓜"]}},
-  {"name":"03","type":1,"url":"https://za.kuanjv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","搜狐","sohu","letv","乐视","bilibili","哔哩哔哩","哔哩","xigua","西瓜"]}}
+  {"name":"19","type":1,"url":"https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="},
+  {"name":"左岸","type":1,"url":"https://good-vip.mmiyue.com/zhenbuka2/api/svip/HaShrcJUHwtH7TDdgUzHaWvJ1lWUZWiK.php?url="},
+  {"name":"9","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url="},
+  {"name":"11","type":1,"url":"http://124.222.68.182/jiexi/4kJX.php/?url="}
   ],
  
   "ijk": [
