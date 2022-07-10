@@ -341,7 +341,8 @@
   {"name":"19","type":1,"url":"https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="},
   {"name":"左岸","type":1,"url":"https://good-vip.mmiyue.com/zhenbuka2/api/svip/HaShrcJUHwtH7TDdgUzHaWvJ1lWUZWiK.php?url="},
   {"name":"9","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url="},
-  {"name":"11","type":1,"url":"http://124.222.68.182/jiexi/4kJX.php/?url="}
+  {"name":"11","type":1,"url":"http://124.222.68.182/jiexi/4kJX.php/?url="},
+  {"name": "虾米","type": 1,"url": "https://jx.xmflv.com/?url="}
   ],
  
   "ijk": [
