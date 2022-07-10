@@ -182,7 +182,8 @@
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/sub/Bili.json
     },
     {
      "key":"csp_Xpath_lezhu",
