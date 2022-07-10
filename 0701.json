@@ -348,8 +348,8 @@
   {"name":"解析聚合","type":3,"url":"Demo"},
   {"name":"Json并发","type":2,"url":"Parallel"},
   {"name":"Json轮询","type":2,"url":"Sequence"},
-  {
-      "name": "龙虾🦞",
+    {
+      "name": "龙虾",
       "type": 1,
       "url": "http://106.55.234.91:4433/?url=",
       "ext": {
