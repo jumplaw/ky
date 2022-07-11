@@ -2,16 +2,16 @@
   //"spider": "https://kvymin.github.io/CatVod/jar/0701.jar;md5;449aa602dce7e45af933e7afc05a07ea",
   "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;6fa1249ae7beeb0222a05db1bc58fb26",
 
-  "sites": [
+  "sites": [  
     {
-      "key": "360",
-      "name": "360",
+      "key": "厂长影视",
+      "name": "厂长影视",
       "type": 3,
-      "api": "csp_SP360",
+      "api": "csp_Czsapp",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    }, 
+    },
     {
      "key": "七七",
      "name": "七七",
@@ -53,15 +53,6 @@
       "name": "低端影视",
       "type": 3,
       "api": "csp_Ddrk",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "厂长影视",
-      "name": "厂长影视",
-      "type": 3,
-      "api": "csp_Czsapp",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -129,6 +120,15 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+      "key": "360",
+      "name": "360",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }, 
     {
       "key": "小宝影院",
       "name": "小宝影院",
