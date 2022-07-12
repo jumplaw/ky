@@ -1,8 +1,20 @@
 
 {
- "spider": "https://kvymin.github.io/CatVod/jar/bc.jar;md5;ea934fa9a92239c09ebcaac35243aa4c",
-  
+  //"spider": "https://kvymin.github.io/CatVod/jar/bc.jar;md5;ea934fa9a92239c09ebcaac35243aa4c",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider_220711.jar;md5;1026ef9a5e78c1f00887c13142d50f3b",
+
   "sites": [
+    {"key":"csp_Ysgc","name":"🎾Ysgc(SP)","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Dy555","name":"🎾Dy555(SP)","type":3,"api":"csp_Dy555","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Fantuan","name":"🎾Fantuan(SP)","type":3,"api":"csp_Fantuan","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Hdmoli1","name":"🎾Hdmoli1(SP)","type":3,"api":"csp_Hdmoli1","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Juhuang","name":"🎾Juhuang(SP)","type":3,"api":"csp_Juhuang","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Languang","name":"🎾Languang(SP)","type":3,"api":"csp_Languang","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Newfii","name":"🎾Newfii(SP)","type":3,"api":"csp_Newfii","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Qicui","name":"🎾Qicui(SP)","type":3,"api":"csp_Qicui","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Subaibai","name":"🎾Subaibai(SP)","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_SPSogou","name":"🎾SPSogou(SP)","type":3,"api":"csp_SPSogou","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_Tkys","name":"🎾Tkys(SP)","type":3,"api":"csp_Tkys","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_CZSPP","name":"🚬厂长(SP)","type":3,"api":"csp_CZSPP","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_SP360","name":"🎾360(SP)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_Kunyu77","name":"👒七七(SP)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
