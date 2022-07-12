@@ -29,6 +29,8 @@
    {"key":"csp_biubiu_dmxq","name":"大米星球〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kvymin.github.io/CatVod/XBiubiu/dmxq.json"},
    {"key":"剧白白","name":"剧白白〔XPF〕","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/XPathMacFilter/jubaibai.json"},
    {"key":"csp_xpath_ddg","name":"达达龟〔XPF〕","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"},
+   {"key":"csp_xpath_hhys","name":"火火影视〔XPF〕","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/XPathMacFilter/huohuo.json"},
+   {"key":"csp_xpath_gongren","name":"工人影视〔XPF〕","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/XPathMacFilter/gongreng.json"},
    {"key":"csp_xpath_rttks","name":"人人影视〔XP〕","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kvymin.github.io/CatVod/XPath/rttks.json"},
    {"key":"csp_xpath_naifeiorg","name":"奈飞中文〔XPF〕","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/XPathMacFilter/naifeiorg.json"},
    {"key":"csp_biubiu_kdys","name":"口袋影院〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kvymin.github.io/CatVod/XBiubiu/kdys.json"},
