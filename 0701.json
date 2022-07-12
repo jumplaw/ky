@@ -91,24 +91,6 @@
       "filterable": 1
     },
     {
-      "key": "Kmys",
-      "name": "酷猫〔SP〕",
-      "type": 3,
-      "api": "csp_Kmys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "低端影视",
-      "name": "低端影视〔SP〕",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "小苹果",
       "name": "小苹果〔SP〕",
       "type": 3,
