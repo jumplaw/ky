@@ -34,7 +34,7 @@
    {"key":"789看片","name":"🔥789看片(XP)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/sub/xpath/789ba.json"},
    {"key":"Gimy","name":"📀Gimy(XP)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/sub/xpath/Gimy.json"},
    {"key":"Age动漫","name":"🐬Age动漫(XP)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://kvymin.github.io/CatVod/sub/xpath/agefans.json"},
-   //{"key":"csp_biubiu_jubb","name":"剧白白〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kvymin.github.io/CatVod/XBiubiu/jubb.json"},
+   {"key":"csp_biubiu_jubb","name":"剧白白〔XB〕","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kvymin.github.io/CatVod/XBiubiu/jubb.json"},
    {"key":"csp_biubiu_555电影","name":"555电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kvymin.github.io/CatVod/XBiubiu/555电影.json"},
    {"key":"多多","name":"多多〔切片〕","type":1,"api":"https://a.7dyu.cn/api.php/provide/vod/from/ddzy/","playUrl":"json:http://qiqi.520say.cn/json/dd.php?url=","searchable":1,"filterable":1,"categories":[]},
    {"key":"旋风","name":"旋风[EXO]","type":1,"api":"http://appimg.ssxmall.cn/api.php/provide/vod/","playUrl":"json:https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url=","searchable":1,"filterable":1,"categories":[]},
