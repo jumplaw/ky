@@ -254,16 +254,6 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/huohuo.json"
     },
     {
-      "key": "csp_xpath_gongren",
-      "name": "工人影视〔XPF〕",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/gongreng.json"
-    },
-    {
       "key": "csp_xpath_rttks",
       "name": "人人影视〔XP〕",
       "type": 3,
