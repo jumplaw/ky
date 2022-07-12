@@ -540,6 +540,58 @@
       }
     },
     {
+    "name": "parwix1",
+    "type": 0,
+    "url": "https://jx.parwix.com:4433/player/?url=",
+    "ext": {
+        "flag": [
+            "qq",
+            "腾讯",
+            "qiyi",
+            "爱奇艺",
+            "奇艺",
+            "youku",
+            "优酷",
+            "mgtv",
+            "芒果",
+            "letv",
+            "乐视",
+            "pptv",
+            "PPTV",
+            "sohu",
+            "bilibili",
+            "哔哩哔哩",
+            "哔哩"
+        ]
+      }
+    },
+    {
+    "name": "parwix2",
+    "type": 0,
+    "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
+    "ext": {
+        "flag": [
+            "qq",
+            "腾讯",
+            "qiyi",
+            "爱奇艺",
+            "奇艺",
+            "youku",
+            "优酷",
+            "mgtv",
+            "芒果",
+            "letv",
+            "乐视",
+            "pptv",
+            "PPTV",
+            "sohu",
+            "bilibili",
+            "哔哩哔哩",
+            "哔哩"
+        ]
+      }
+    },
+    {
       "name": "leduo",
       "type": 1,
       "url": "https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=",
