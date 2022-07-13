@@ -2,8 +2,7 @@
    //"spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;b56df25d618ad76bc8aeb80b181a2685",
     "spider": "https://kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
     
-    "sites": [
-       
+    "sites": [       
         {"key":"csp_Cokemv","name":"🐞Cokemv(SP)","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Buka","name":"🦊真不卡(SP)","type":3,"api":"csp_Buka","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Auete","name":"🎤Auete(SP)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
