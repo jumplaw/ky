@@ -351,7 +351,7 @@
       "name":"293",
       "type":1,
       "url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=",
-      "ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],
+      "ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"]
             }
     },
     {
@@ -359,7 +359,7 @@
       "type": 0,
       "url": "https://www.iqiyi.one/dmplay/?url=",
       "ext": {
-         "flag": ["ltnb","renrenmi","miaoparty","miaoparty2","miaoparty3","rx","rongxing","xueren","xfy"],
+         "flag": ["ltnb","renrenmi","miaoparty","miaoparty2","miaoparty3","rx","rongxing","xueren","xfy"]
       }
     },
     {
@@ -398,7 +398,7 @@
       "type": 1,
       "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
       "ext": {
-        "flag": ["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],
+        "flag": ["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"]
       }
     },
     {
@@ -406,7 +406,7 @@
       "type": 1,
       "url": "https://good-vip.mmiyue.com/zhenbuka2/api/svip/HaShrcJUHwtH7TDdgUzHaWvJ1lWUZWiK.php?url=",
       "ext": {
-        "flag": "qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],
+        "flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"]
       }
     },
     {
@@ -440,7 +440,7 @@
       "type": 1,
       "url": "https://jx.bozrc.com:4433/player/?url=",
       "ext": {
-        "flag": ["qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","qq","腾讯","sohu","pptv","PPTV","bilibili","哔哩哔哩","哔哩","xigua","1905"],
+        "flag": ["qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","qq","腾讯","sohu","pptv","PPTV","bilibili","哔哩哔哩","哔哩","xigua","1905"]
       }
     },
     {
@@ -448,7 +448,7 @@
     "type": 0,
     "url": "https://jx.parwix.com:4433/player/?url=",
     "ext": {
-        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],
+        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]
       }
     },
     {
@@ -456,7 +456,7 @@
     "type": 0,
     "url": "https://jx.parwix.com:4433/player/analysis.php?v=",
     "ext": {
-        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],
+        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]
       }
     },
     {
@@ -474,7 +474,7 @@
       "type": 0,
       "url": "https://chaxun.truechat365.com/?url=",
       "ext": {
-        "flag": ["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"],
+        "flag": ["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"]
       }
     },
     {
@@ -482,7 +482,7 @@
       "type": 1,
       "url": "https://a.dxzj88.com/jxrrm/jiami.php?url=",
       "ext": {
-        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"],
+        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"]
       }
     },
     {
@@ -490,7 +490,7 @@
       "type": 1,
       "url": "https://sz.dxzj88.com/jxrjrm/jiaomi.php?url=",
       "ext": {
-        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"],
+        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"]
       }
     }
   ],
