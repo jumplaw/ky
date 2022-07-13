@@ -3,11 +3,10 @@
     "spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
     
     "sites": [       
-        {"key":"csp_Auete","name":"🎤Auete(SP)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_Auete","name":"💥Auete(SP)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_QQ","name":"🌀腾讯(SP)","type": 3,"api":"csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key":"csp_MGTV","name":"💖芒果(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_IQIYI","name":"🏠爱奇艺(SP)","type":3,"api":"csp_IQIYI","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"csp_MGTV","name":"💥芒果(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
         {
           "key": "多多",
           "name": "多多〔切片〕",
