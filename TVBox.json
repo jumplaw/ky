@@ -10,6 +10,15 @@
       "filterable": 1
     },
     {
+      "key":"Legado",
+      "name":"Legado〔SP〕",
+      "type":3,
+      "api":"csp_Legado",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
+    },
+    {
       "key": "csp_QQ",
       "name": "🌀腾讯〔SP〕",
       "type": 3,
