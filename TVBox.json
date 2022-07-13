@@ -249,6 +249,16 @@
           }
        },
        {
+          "name": "LTRX",
+          "type": 1,
+          "url": "https://svip.spchat.top/api/?type=ys&key=bKemW41JnxmQb4l67h&url=",
+          "ext": {
+             "flag": [
+                "rx"
+             ]
+          }
+       },
+       {
             "name": "renrenmi2",
             "type": 1,
             "url": "https://a.dxzj88.com/jxrrm/jiami.php?url=",
