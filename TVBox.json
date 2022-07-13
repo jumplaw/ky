@@ -10,10 +10,10 @@
       "filterable": 1
     },
     {
-      "key":"Legado",
-      "name":"Legado〔SP〕",
+      "key":"Nekk",
+      "name":"Nekk〔SP〕",
       "type":3,
-      "api":"csp_Legado",
+      "api":"csp_Nekk",
       "searchable":1,
       "quickSearch":1,
       "filterable":1
