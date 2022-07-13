@@ -12,7 +12,7 @@
         {"key":"csp_IQIYI","name":"🏠爱奇艺(SP)","type":3,"api":"csp_IQIYI","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_MGTV","name":"💥芒果(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Ysgc","name":"👒影视工程(SP)","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"Hsck(爬)","name":"📀Hsck(爬)","type":3,"api":"csp_Hsck","searchable":1,"quickSearch":1,"filterable":1},
+        // {"key":"Hsck(爬)","name":"📀Hsck(爬)","type":3,"api":"csp_Hsck","searchable":1,"quickSearch":1,"filterable":1},
         {
             "key": "csp_biubiu_jubb",
             "name": "剧白白〔XB〕",
