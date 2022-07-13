@@ -46,14 +46,6 @@
       "filterable": 1
     },
     {
-      "key":"酷云77",
-      "name":"酷云77〔切〕",
-      "type":1,
-      "api":"http://api.kunyu77.com/api.php",
-      "searchable":0,
-      "quickSearch":0
-    },
-    {
       "key": "旋风",
       "name": "旋风〔EXO〕",
       "type": 1,
