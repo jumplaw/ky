@@ -1,6 +1,15 @@
 {
   "sites": [
     {
+      "key": "酷云77",
+      "name": "酷云77〔EXO〕",
+      "type": 1,
+      "api": "http://api.kunyu77.com/api.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "csp_Auete",
       "name": "💥Auete〔SP〕",
       "type": 3,
