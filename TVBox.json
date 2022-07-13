@@ -87,26 +87,26 @@
             "filterable": 0,
             "ext": "https://kvymin.github.io/CatVod/XBiubiu/特狗影视.json"
         },
-        {
-            "key": "csp_biubiu_555电影",
-            "name": "555电影(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/555电影.json"
-        },
-        {
-            "key": "csp_biubiu_lezhu",
-            "name": "乐猪(XB)",
-            "type": 3,
-            "api": "csp_XBiubiu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/XBiubiu/lezhutv.json"
-        },
+    {
+      "key": "csp_biubiu_555电影",
+      "name": "555电影〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/555.json"
+    },
+    {
+      "key": "csp_Xpath_lezhu",
+      "name": "乐猪影视〔XPM〕",
+      "type": 3,
+      "api": "csp_XPathMac",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
+    },
         {
             "key": "csp_biubiu_YYDS影院",
             "name": "YYDS影院(XB)",
