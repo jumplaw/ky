@@ -3,101 +3,86 @@
     "spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
     
     "sites": [       
-       // {"key":"csp_Cokemv","name":"🐞Cokemv(SP)","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
-       // {"key":"csp_Buka","name":"🦊真不卡(SP)","type":3,"api":"csp_Buka","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Auete","name":"🎤Auete(SP)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
-       // {"key":"csp_n0ys","name":"💥1090影视(SP)","type":3,"api":"csp_N0ys","searchable":1,"quickSearch":1,"filterable":1,"ext":""},
         {"key":"csp_QQ","name":"🌀腾讯(SP)","type": 3,"api":"csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1},
         {"key":"csp_MGTV","name":"💖芒果(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_IQIYI","name":"🏠爱奇艺(SP)","type":3,"api":"csp_IQIYI","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_MGTV","name":"💥芒果(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
-       // {"key":"csp_Ysgc","name":"👒影视工程(SP)","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1},
-       // {"key":"Hsck(爬)","name":"📀Hsck(爬)","type":3,"api":"csp_Hsck","searchable":1,"quickSearch":1,"filterable":1},       
-    {
-      "key": "多多",
-      "name": "多多〔切片〕",
-      "type": 1,
-      "api": "https://a.7dyu.cn/api.php/provide/vod/from/ddzy/",
-      "playUrl": "json:http://qiqi.520say.cn/json/dd.php?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "旋风",
-      "name": "旋风[EXO]",
-      "type": 1,
-      "api": "http://appimg.ssxmall.cn/api.php/provide/vod/",
-      "playUrl": "json:https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "极速",
-      "name": "极速〔聚〕",
-      "type": 1,
-      "api": "https://www.ddzyz1.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ]
-    },
-    {
-      "key": "csp_Xpath_lezhu",
-      "name": "乐猪影视〔XPM〕",
-      "type": 3,
-      "api": "csp_XPathMac",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
-    },
-    {
-       "key": "csp_xpath_cokemv",
-       "name": "Cokemv(XPF)",
-       "type": 3,
-       "api": "csp_XPathFilter",
-       "searchable": 1,
-       "quickSearch": 1,
-       "filterable": 1,
-       "ext": "https://kvymin.github.io/CatVod/XPathFilter/cokemv.json"
-    },
-    {
-       "key": "csp_xpath_libvio",
-       "name": "libvio(XPF)",
-       "type": 3,
-       "api": "csp_XPathFilter",
-       "searchable": 1,
-       "quickSearch": 1,
-       "filterable": 1,
-       "ext": "https://kvymin.github.io/CatVod/XPathFilter/libvio.json"
-    },
-    {
-       "key": "csp_xpath_Auete",
-       "name": "Auete(XPF)",
-       "type": 3,
-       "api": "csp_XPathFilter",
-       "searchable": 1,
-       "quickSearch": 1,
-       "filterable": 1,
-       "ext": "https://kvymin.github.io/CatVod/XPathFilter/Auete.json"
-     },
-     {
+        {
+          "key": "多多",
+          "name": "多多〔切片〕",
+          "type": 1,
+          "api": "https://a.7dyu.cn/api.php/provide/vod/from/ddzy/",
+          "playUrl": "json:http://qiqi.520say.cn/json/dd.php?url=",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1
+        },
+        {
+          "key": "极速",
+          "name": "极速〔聚〕",
+          "type": 1,
+          "api": "https://www.ddzyz1.com/api.php/provide/vod/",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 0,
+          "categories": [
+          "国产剧",
+          "港台剧",
+          "日韩剧",
+          "欧美剧",
+          "综艺",
+          "动漫",
+          "动作片",
+          "喜剧片",
+          "爱情片",
+          "科幻片",
+          "恐怖片",
+          "剧情片",
+          "战争片"
+        ]
+      },
+      {
+         "key": "csp_Xpath_lezhu",
+         "name": "乐猪影视〔XPM〕",
+         "type": 3,
+         "api": "csp_XPathMac",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
+       },
+       {
+         "key": "csp_xpath_cokemv",
+         "name": "Cokemv(XPF)",
+         "type": 3,
+         "api": "csp_XPathFilter",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "https://kvymin.github.io/CatVod/XPathFilter/cokemv.json"
+      },
+      {
+         "key": "csp_xpath_libvio",
+         "name": "libvio(XPF)",
+         "type": 3,
+         "api": "csp_XPathFilter",
+         "searchable": 1,
+         "quickSearch": 1,
+         "filterable": 1,
+         "ext": "https://kvymin.github.io/CatVod/XPathFilter/libvio.json"
+      },
+      {
+          "key": "csp_xpath_Auete",
+          "name": "Auete(XPF)",
+          "type": 3,
+          "api": "csp_XPathFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathFilter/Auete.json"
+       },
+       {
             "key": "Gimy",
             "name": "Gimy(XPF)",
             "type": 3,
@@ -116,16 +101,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
-        },
-        {
-            "key": "在线之家",
-            "name": "在线之家",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://kvymin.github.io/CatVod/Xpath/zxzj.json"
         },
         {
             "key": "动漫84",
