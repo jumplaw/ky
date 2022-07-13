@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "csp_Auete",
-      "name": "💥Auete(SP)",
+      "name": "💥Auete〔SP〕",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -11,7 +11,7 @@
     },
     {
       "key": "csp_QQ",
-      "name": "🌀腾讯(SP)",
+      "name": "🌀腾讯〔SP〕",
       "type": 3,
       "api": "csp_QQ",
       "searchable": 1,
@@ -20,7 +20,7 @@
     },
     {
       "key": "csp_MGTV",
-      "name": "💖芒果(SP)",
+      "name": "💖芒果〔SP〕",
       "type": 3,
       "api": "csp_MGTV",
       "searchable": 1,
@@ -29,7 +29,7 @@
     },
     {
       "key": "csp_IQIYI",
-      "name": "🏠爱奇艺(SP)",
+      "name": "🏠爱奇艺〔SP〕",
       "type": 3,
       "api": "csp_IQIYI",
       "searchable": 1,
@@ -38,7 +38,7 @@
     },
     {
       "key": "旋风",
-      "name": "旋风[EXO]",
+      "name": "旋风〔EXO〕",
       "type": 1,
       "api": "http://appimg.ssxmall.cn/api.php/provide/vod/",
       "playUrl": "json:https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url=",
@@ -82,7 +82,7 @@
     },
     {
       "key": "csp_xpath_cokemv",
-      "name": "Cokemv(XPF)",
+      "name": "Cokemv〔XPF〕",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
@@ -92,7 +92,7 @@
     },
     {
       "key": "csp_xpath_libvio",
-      "name": "libvio(XPF)",
+      "name": "libvio〔XPF〕",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
@@ -102,7 +102,7 @@
     },
     {
       "key": "Gimy",
-      "name": "Gimy(XPF)",
+      "name": "Gimy〔XPF〕",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -112,7 +112,7 @@
     },
     {
       "key": "csp_xpath_ddg",
-      "name": "达达龟(XPF)",
+      "name": "达达龟〔XPF〕",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -122,7 +122,7 @@
     },
     {
       "key": "动漫84",
-      "name": "动漫84(XP)",
+      "name": "动漫84〔XP〕",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
