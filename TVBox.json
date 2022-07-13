@@ -47,6 +47,16 @@
       "filterable": 1
     },
     {
+      "key":"多多",
+      "name":"多多〔EXO〕",
+      "type":1,
+      "api":"https://a.7dyu.cn/api.php/provide/vod/from/ddzy/",
+      "playUrl":"json:http://qiqi.520say.cn/json/dd.php?url=",
+      "searchable":1,
+      "filterable":1,
+      "categories":[ ]
+    },
+    {
       "key": "极速",
       "name": "极速〔聚〕",
       "type": 1,
