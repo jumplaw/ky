@@ -7,7 +7,14 @@
       "api": "http://api.kunyu77.com/api.php",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
+      "filterable": 0,
+      "categories": [
+        "电影",
+        "电视剧",
+        "日韩剧",
+        "综艺",
+        "动漫"
+      ]
     },
     {
       "key": "csp_Auete",
