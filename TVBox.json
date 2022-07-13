@@ -10,10 +10,10 @@
       "filterable": 1
     },
     {
-      "key":"Imaple",
-      "name":"Imaple〔SP〕",
+      "key":"Jumi",
+      "name":"Jumi〔SP〕",
       "type":3,
-      "api":"csp_Imaple",
+      "api":"csp_Jumi",
       "searchable":1,
       "quickSearch":1,
       "filterable":1
