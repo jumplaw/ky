@@ -17,6 +17,16 @@
       ]
     },
     {
+     "key":"csp_appys_酷云77",
+     "name":"🐌酷云77",
+     "type":3,
+     "api": "csp_AppYs",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":1,
+     "ext":"http://api.kunyu77.com/api.php/v1.vod"
+    },
+    {
       "key": "csp_Auete",
       "name": "💥Auete〔SP〕",
       "type": 3,
