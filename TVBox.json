@@ -101,16 +101,6 @@
       "ext": "https://kvymin.github.io/CatVod/XPathFilter/libvio.json"
     },
     {
-      "key": "csp_xpath_Auete",
-      "name": "Auete(XPF)",
-      "type": 3,
-      "api": "csp_XPathFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathFilter/Auete.json"
-    },
-    {
       "key": "Gimy",
       "name": "Gimy(XPF)",
       "type": 3,
@@ -164,21 +154,6 @@
     }
   ],
   "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json并发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
     {
       "name": "LTRX",
       "type": 1,
