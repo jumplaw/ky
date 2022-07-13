@@ -10,10 +10,10 @@
       "filterable": 1
     },
     {
-      "key":"Nekk",
-      "name":"Nekk〔SP〕",
+      "key":"Imaple",
+      "name":"Imaple〔SP〕",
       "type":3,
-      "api":"csp_Nekk",
+      "api":"csp_Imaple",
       "searchable":1,
       "quickSearch":1,
       "filterable":1
