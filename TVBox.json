@@ -223,26 +223,32 @@
             "url": "Sequence"
         },
         {
-            "name": "293",
-            "type": 1,
-            "url": "http://81.71.48.249:4456/jsonc/longxia.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "qiyi",
-                    "mgtv",
-                    "youku",
-                    "letv",
-                    "sohu",
-                    "xigua",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "Dart/2.14 (dart:io)"
-                }
-            }
+           "name":"293",
+           "type":1,
+           "url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=",
+           "ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"]
+                 }
         },
-        {
+       {
+          "name": "喵派4",
+          "type": 0,
+          "url": "https://www.iqiyi.one/dmplay/?url=",
+          "ext": {
+             "flag": ["ltnb","renrenmi","miaoparty","miaoparty2","miaoparty3","rx","rongxing","xueren","xfy"]
+          }
+       },
+       {
+          "name": "龙虾",
+          "type": 1,
+          "url": "http://106.55.234.91:4433/?url=",
+          "ext": {
+             "flag": ["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],
+             "header": {
+                "User-Agent": "Dalvik/2.1.0"
+             }
+          }
+       },
+       {
             "name": "renrenmi2",
             "type": 1,
             "url": "https://a.dxzj88.com/jxrrm/jiami.php?url=",
