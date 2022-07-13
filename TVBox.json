@@ -1,25 +1,19 @@
 {    
-   "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;b56df25d618ad76bc8aeb80b181a2685",
+   //"spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;b56df25d618ad76bc8aeb80b181a2685",
+    "spider": "https://kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
     
     "sites": [
-        {
-            "key": "360",
-            "name": "360",
-            "type": 3,
-            "api": "csp_SP360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "七七",
-            "name": "七七",
-            "type": 3,
-            "api": "csp_Kunyu77",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+       
+        {"key":"csp_Cokemv","name":"🐞Cokemv(SP)","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_Buka","name":"🦊真不卡(SP)","type":3,"api":"csp_Buka","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_Auete","name":"🎤Auete(SP)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_n0ys","name":"💥1090影视(SP)","type":3,"api":"csp_N0ys","searchable":1,"quickSearch":1,"filterable":1,"ext":""},
+        {"key":"csp_QQ","name":"🌀腾讯(SP)","type": 3,"api":"csp_QQ","searchable": 1,"quickSearch": 1,"filterable": 1},
+        {"key":"csp_MGTV","name":"💖芒果(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_IQIYI","name":"🏠爱奇艺(SP)","type":3,"api":"csp_IQIYI","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_MGTV","name":"💥芒果(SP)","type":3,"api":"csp_MGTV","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"csp_Ysgc","name":"👒影视工程(SP)","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1},
+        {"key":"Hsck(爬)","name":"📀Hsck(爬)","type":3,"api":"csp_Hsck","searchable":1,"quickSearch":1,"filterable":1},
         {
             "key": "csp_biubiu_jubb",
             "name": "剧白白〔XB〕",
