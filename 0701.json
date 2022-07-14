@@ -328,16 +328,6 @@
       "url": "Sequence"
     },
     {
-    "name": "LTRX",
-    "type": 1,
-    "url": "https://svip.spchat.top/api/?type=ys&key=bKemW41JnxmQb4l67h&url=",
-    "ext": {
-        "flag": [
-            "rx"
-        ]
-      }
-    },
-    {
       "name": "云you解析2",
       "type": 1,
       "url": "https://maoyingshi.cc/api.php?url=",
@@ -354,14 +344,14 @@
       "url":"https://jhjx.kuanjv.com/newky/?url="
     },
     {
-      "name":"多多",
-      "type":0,
-      "url":"http://qiqi.520say.cn/json/dd.php?url="
-    },
-    {
-      "name":"旋风",
-      "type":0,
-      "url":"https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url="
+    "name": "LTRX",
+    "type": 1,
+    "url": "https://svip.spchat.top/api/?type=ys&key=bKemW41JnxmQb4l67h&url=",
+    "ext": {
+        "flag": [
+            "rx"
+        ]
+      }
     },
     {
     "name": "fuqi",
@@ -376,22 +366,6 @@
         "flag": [
           "leduo"
         ]
-      }
-    },
-    {
-      "name": "renrenmi2",
-      "type": 1,
-      "url": "https://a.dxzj88.com/jxrrm/jiami.php?url=",
-      "ext": {
-        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"]
-      }
-    },
-    {
-      "name": "renrenmi3",
-      "type": 1,
-      "url": "https://sz.dxzj88.com/jxrjrm/jiaomi.php?url=",
-      "ext": {
-        "flag": ["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","芒果","mgtv","xigua","wuduzy","bilibili","pptv","leduo","Clk4","哔哩","renrenmi","ltnb","rx"]
       }
     }
   ],
