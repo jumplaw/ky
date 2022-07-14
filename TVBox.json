@@ -130,6 +130,16 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy.json"
     },
     {
+      "key":"csp_xpath_zxzj2",
+      "name":"在线之家(XPF)",
+      "type":3,
+      "api":"csp_XPathFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://kvymin.github.io/CatVod/XPath/zxzj.json"
+    },
+    {
       "key": "csp_xpath_ddg",
       "name": "达达龟〔XPF〕",
       "type": 3,
