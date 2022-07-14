@@ -10,6 +10,16 @@
 "quickSearch": "1",
 "filterable": "1",
 "ext": "http://iapp.nfuxs.club/nfuxs.php/v1.vod"
+},    
+{
+      "key": "csp_Xpath_zxzj",
+      "name": "在线之家〔XPM〕",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPath/zxzj.json"
 },
 {
 "key": "push_agent",
