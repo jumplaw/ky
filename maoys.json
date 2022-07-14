@@ -1,7 +1,7 @@
 
 {
   //"spider": "https://kvymin.github.io/CatVod/jar/bc.jar;md5;ea934fa9a92239c09ebcaac35243aa4c",
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider_220713.jar;md5;eb7dd05e10b1a0a78e2d9cf019dcd651",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider_220714.jar;md5;79ee3cbb2c5bcbcac07e34458d555cf5",
 
   "sites": [
     {"key":"csp_Ysgc","name":"🎾Ysgc(SP)","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1},
