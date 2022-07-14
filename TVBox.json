@@ -46,26 +46,6 @@
       "filterable": 1
     },
     {
-      "key": "旋风",
-      "name": "旋风〔EXO〕",
-      "type": 1,
-      "api": "http://appimg.ssxmall.cn/api.php/provide/vod/",
-      "playUrl": "json:https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key":"多多",
-      "name":"多多〔EXO〕",
-      "type":1,
-      "api":"https://a.7dyu.cn/api.php/provide/vod/from/ddzy/",
-      "playUrl":"json:http://qiqi.520say.cn/json/dd.php?url=",
-      "searchable":1,
-      "filterable":1,
-      "categories":[ ]
-    },
-    {
       "key": "极速",
       "name": "极速〔聚〕",
       "type": 1,
