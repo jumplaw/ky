@@ -3,7 +3,7 @@
   "sites": [
     {
       "key":"csp_CZSPP",
-      "name":"厂长资源",
+      "name":"厂长资源〔SP〕",
       "type":3,
       "api":"csp_Czsapp",
       "searchable":1,
@@ -12,7 +12,7 @@
     },
     {
        "key":"csp_Auete",
-       "name":"Auete",
+       "name":"Auete〔SP〕",
        "type": 3,
        "api":"csp_Auete",
        "searchable":1,
@@ -38,8 +38,8 @@
       "filterable": 1
     },
     {
-      "key":"哔嘀影视(cl)",
-      "name": "哔嘀影视(cl)",
+      "key":"哔嘀影视(磁力)",
+      "name": "哔嘀影视(磁力)",
       "type":3,
       "api":"csp_XPath",
       "searchable":1,
