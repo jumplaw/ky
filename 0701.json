@@ -354,7 +354,7 @@
           "1905"
         ],
         "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
+          "User-Agent": "Dalvik/2.1.0"
         }
       }
     },
