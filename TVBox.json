@@ -67,7 +67,7 @@
     },
     {   
       "key":"红牛",
-      "name":"红牛",
+      "name":"红牛〔聚〕",
       "type": 1,
       "api":"https://www.hongniuzy2.com/api.php/provide/vod/",
       "playUrl":"json:https://www.tutukiki.com/m3u8/?url=",
@@ -192,7 +192,22 @@
       ]
     }
   ],
-  "parses": [
+  "parses": 
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
     {
       "name": "云you解析2",
       "type": 1,
