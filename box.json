@@ -10,10 +10,10 @@
       "filterable": 1
     },
     {
-      "key": "zxzj",
-      "name": "在线之家〔SP〕",
+      "key": "Jumi",
+      "name": "剧密〔SP〕",
       "type": 3,
-      "api": "csp_Zxzj",
+      "api": "csp_Jumi",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
