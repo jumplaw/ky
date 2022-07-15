@@ -10,15 +10,6 @@
       "filterable": 1
     },
     {
-      "key": "Jumi",
-      "name": "剧密〔SP〕",
-      "type": 3,
-      "api": "csp_Jumi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "小苹果",
       "name": "小苹果〔SP〕",
       "type": 3,
@@ -36,6 +27,26 @@
       "quickSearch":1,
       "filterable":0,
       "ext":"https://kvymin.github.io/CatVod/Xpath/biditd.json"
+    },
+    {
+      "key": "csp_Xpath_lezhu",
+      "name": "乐猪影视〔XPM〕",
+      "type": 3,
+      "api": "csp_XPathMac",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
+    },
+    {
+      "key": "csp_biubiu_555电影",
+      "name": "555电影〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/555.json"
     },
     {
       "key": "push_agent",
