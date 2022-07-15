@@ -55,7 +55,6 @@
     //"dtUrlIdR": "/play/(\\S+).html",
     //"dtUrlName": "/text()",
     //"dtUrlNameR": "",
-    //"playUrl": "https://www.52bdys.com/play/{playUrl}.html",
 	"playUa": "",
 	"searchUrl": "https://www.bdys01.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
 	"scVodNode": "json:list",
