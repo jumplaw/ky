@@ -101,9 +101,9 @@
     },
     //{"key":"Kmys","name":"酷猫〔SP〕","type":3,"api":"csp_Kmys","searchable":1,"quickSearch":1,"filterable":1},
     //{"key":"低端影视","name":"低端影视〔SP〕","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":1},
-    //{"key":"Nfyun","name":"Nf云〔SP〕","type":3,"api":"csp_Nfyun","searchable":1,"quickSearch":1,"filterable":1},
-    //{"key":"小宝影院","name":"小宝影院〔SP〕","type":3,"api":"csp_Xiaoh","searchable":1,"quickSearch":1,"filterable":1},
-    //{"key":"If101","name":"If101〔SP〕","type":3,"api":"csp_If101","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"Nfyun","name":"Nf云〔SP〕","type":3,"api":"csp_Nfyun","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"小宝影院","name":"小宝影院〔SP〕","type":3,"api":"csp_Xiaoh","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"If101","name":"If101〔SP〕","type":3,"api":"csp_If101","searchable":1,"quickSearch":1,"filterable":1},
     {
       "key": "9E03",
       "name": "9E03〔V2〕",
@@ -268,6 +268,16 @@
       ]
     },
     {
+      "key": "Gitcafe",
+      "name": "小纸条〔SP〕",
+      "type": 3,
+      "api": "csp_Gitcafe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "dcbc975ad0684eb5a498ecd1836272e6"
+    },
+    {
       "key": "zhaozy",
       "name": "找资源",
       "type": 3,
@@ -288,16 +298,6 @@
       "ext": "27b06d5221a24199b15f2e573d847430"
     },
     {
-      "key": "Gitcafe",
-      "name": "小纸条〔SP〕",
-      "type": 3,
-      "api": "csp_Gitcafe",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "dcbc975ad0684eb5a498ecd1836272e6"
-    },
-    {
       "key": "push_agent",
       "name": "推送〔SP〕",
       "type": 3,
@@ -315,7 +315,7 @@
         {
           "name": "redirect",
           "urls": [
-            "proxy://do=live&type=txt&ext=https://kvymin.github.io/CatVod/live/live.txt"
+            "proxy://do=live&type=txt&ext=https://kvymin.github.io/CatVod/live/Live.txt"
           ]
         }
       ]
@@ -336,6 +336,26 @@
       "name": "Json轮询",
       "type": 2,
       "url": "Sequence"
+    },
+    {
+      "name": "293",
+      "type": "1",
+      "url": "http://81.71.48.249:4433/iphone/100.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "mgtv",
+          "youku",
+          "letv",
+          "sohu",
+          "xigua",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "Dalvik/2.1.0"
+        }
+      }
     },
     {
       "name": "云you解析2",
@@ -362,26 +382,6 @@
       "name":"多多",
       "type":1,
       "url":"http://qiqi.520say.cn/json/dd.php?url="
-    },
-    {
-      "name": "293",
-      "type": "1",
-      "url": "http://81.71.48.249:4433/iphone/100.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "qiyi",
-          "mgtv",
-          "youku",
-          "letv",
-          "sohu",
-          "xigua",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "Dalvik/2.1.0"
-        }
-      }
     },
     {
       "name":"16",
