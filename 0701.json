@@ -339,6 +339,21 @@
       }
     },
     {
+      "name":"红牛",
+      "type":1,
+      "url":"https://www.tutukiki.com/m3u8/?url="
+    },
+    {
+      "name":"旋风",
+      "type":1,
+      "url":"https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url="
+    },
+    {
+      "name":"多多",
+      "type":1,
+      "url":"http://qiqi.520say.cn/json/dd.php?url="
+    },
+    {
       "name": "293",
       "type": "1",
       "url": "http://81.71.48.249:4433/iphone/100.php?url=",
