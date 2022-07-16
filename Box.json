@@ -69,6 +69,16 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/555.json"
     },
     {
+      "key": "bdys",
+      "name": "哔嘀(磁力测试)",
+      "type": 3,
+      "api": "csp_XPbd",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+	"ext": "https://kvymin.github.io/CatVod/CatVod/XPbd/Bdys.json"
+    },
+    {
        "key":"AliPS",
        "name":"盘搜",
        "type":3,
@@ -149,9 +159,9 @@
       }
     },
     {
-      "name": "293",
-      "type": "1",
-      "url": "http://81.71.48.249:4433/iphone/100.php?url=",
+      "name": "龙虾",
+      "type": 1,
+      "url": "http://106.55.234.91:4433/?url=",
       "ext": {
         "flag": [
           "qq",
