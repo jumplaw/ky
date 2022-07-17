@@ -1,6 +1,6 @@
 {
 // spider
-"spider":https://kvymin.github.io/CatVod/jar/0717_spider.jar;md5;a7ed6422e913f3dfd12bf7b74facc247",
+"spider":"https://kvymin.github.io/CatVod/jar/0717_spider.jar;md5;a7ed6422e913f3dfd12bf7b74facc247",
 
 // 直播
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}],
