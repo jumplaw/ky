@@ -1,4 +1,9 @@
 {
+  "siteUrl": "https://zxzj.vip/",
+  "regexCategory": "/list/(\\d+).html",
+  "regexVid": "/detail/(\\d+).html",
+  "regexPlay": "/video/(\\d+)-(\\d+)-(\\d+).html",
+  "regexPage": "/vodshow/(\\S+).html",
   "player": {
     "dpp": {
       "sh": "DP播放",
