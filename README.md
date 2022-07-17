@@ -1,4 +1,4 @@
-# 2022.06.26建新接口
+# 建新接口
 
 https://kvymin.github.io/CatVod/maoys.json
 
