@@ -37,6 +37,15 @@
       "filterable": 1
     },
     {
+      "key": "小熊",
+      "name": "小熊TV",
+      "type": 3,
+      "api": "csp_Xxys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "zxzj",
       "name": "在线之家〔SP〕",
       "type": 3,
@@ -700,5 +709,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;fe0b90fc1861e6f85d7299926387993a"
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;76fce5df9ea13beeb28eeb2fd281a308"
 }
