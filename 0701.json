@@ -263,8 +263,8 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/555.json"
     },
     {
-      "key": "csp_biubiu_juzi",
-      "name": "桔子TV〔XB〕",
+      "key": "csp_biubiu_橘子tv",
+      "name": "橘子tv〔XB〕",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
