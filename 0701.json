@@ -273,6 +273,16 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/juzi.json"
     },
     {
+      "key": "csp_biubiu_宝仙HD",
+      "name": "宝仙H〔DXB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/宝仙HD"
+    },
+    {
       "key": "极速",
       "name": "极速〔聚〕",
       "type": 1,
