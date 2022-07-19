@@ -263,6 +263,16 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/555.json"
     },
     {
+      "key": "csp_biubiu_juzi",
+      "name": "桔子TV〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/juzi.json"
+    },
+    {
       "key": "极速",
       "name": "极速〔聚〕",
       "type": 1,
