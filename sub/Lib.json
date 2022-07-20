@@ -1,5 +1,11 @@
 {
   "player": {
+    "duoduozy": {
+      "sh": "LINE100",
+      "pu": "",
+      "sn": 0,
+      "or": 999
+    },
     "LINE405": {
       "sh": "LINE405",
       "pu": "https://sh-data-s01.chinaeast2.cloudapp.chinacloudapi.cn/lb.php?url=",
