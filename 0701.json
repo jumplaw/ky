@@ -187,6 +187,14 @@
       "filterable": 0
     },
     {
+      "key":"土狗360",
+      "name":"土狗360(官)",
+      "type":1,
+      "api":"http://360.tgzy.cc/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
       "key": "Bili",
       "name": "B站〔SP〕",
       "type": 3,
