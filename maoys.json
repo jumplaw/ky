@@ -1,5 +1,5 @@
 {
-"spider":"https://kvymin.github.io/CatVod/jar/0720_spider.jar;md5;437d1e20f231ee71f4343e0b8329ae80",
+"spider":"https://kvymin.github.io/CatVod/jar/0723_spider.jar;md5;da9af31bf7b080b21a7073554469c332",
 
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA=="]}]}],
 
