@@ -65,6 +65,14 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+      "key":"快车资源",
+      "name":"快车资源(切)",
+      "type":1,
+      "api":"https://caiji.kczyapi.com/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },
     {   
       "key":"红牛",
       "name":"红牛〔聚〕",
@@ -74,6 +82,30 @@
       "searchable": 1,
       "filterable": 1,
       "categories":[]
+    },
+    {
+      "key":"6U资源",
+      "name":"6U资源(官)",
+      "type":1,
+      "api":"http://www.6uzy.cc/inc/apijson_vod.php",
+      "searchable":0,
+      "quickSearch":0
+    },
+    {
+      "key":"土狗2345",
+      "name":"土狗2345(官)",
+      "type":1,
+      "api":"http://2345.tgzy.cc/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"土狗360",
+      "name":"土狗360(官)",
+      "type":1,
+      "api":"http://360.tgzy.cc/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
     },
     {
       "key": "极速",
@@ -210,11 +242,11 @@
     },
     {"name":"Pro","type":1,"url":"http://124.222.68.182/jiexi/4kJX.php/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","奇艺"]}},
     {"name":"renrenmi3","type":1,"url":"https://sz.dxzj88.com/jxrjrm/jiaomi.php?url=","ext":{"flag":["renrenmi"]}},
-    {"name":"线路NX","type":1,"url":"https://play.fuqizhishi.com/maotv/API.php?appkey=QQ172598364&url="},
+    {"name":"线路NX","type":1,"url":"https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538"},
     {"name":"293","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
     {"name":"leduo","type":1,"url":"https://api.ldjx.cc/wp-api/getvodurl.php?token=1001&vid=","ext":{"flag":["leduo"]}},
     {"name":"云you2","type":1,"url":"https://maoyingshi.cc/api.php?url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
-    {"name":"江湖解析","type":1,"url":"http://103.40.240.46/jh/?url=","ext":{"flag":["renrenmi","qq","腾讯","youku","优酷","mgtv","芒果","xigua","西瓜"]}},
+    {"name":"解析","type":1,"url":"http://106.55.234.91:4433/?url=","ext":{"flag":["renrenmi","qq","腾讯","youku","优酷","mgtv","芒果","xigua","西瓜"]}},
     {"name":"王牌","type":1,"url":"https://za.kuanjv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","搜狐","sohu","letv","乐视","bilibili","哔哩哔哩","哔哩","xigua","西瓜"]}}, 
     {"name":"parwix1","type":0,"url":"https://jx.parwix.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}, 
     {"name":"parwix2","type":0,"url":"https://jx.parwix.com:4433/player/analysis.php?v=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}
