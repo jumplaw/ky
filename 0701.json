@@ -1,4 +1,6 @@
 {
+  "wallpaper": "https://picsum.photos/1280/720/?blur=10",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;226db2fc833312b73b0bf57c7dd41484",
   "sites": [
     {
       "key": "厂长影视",
@@ -730,6 +732,5 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ],
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;226db2fc833312b73b0bf57c7dd41484"
+  ]
 }
