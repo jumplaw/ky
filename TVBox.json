@@ -45,8 +45,16 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+     "key":"csp_xml_木子看剧",
+     "name":"🐝木子看剧",
+     "type":1,
+     "api":"https://mzkj.maccms.cf/api.php/provide/vod/",
+     "searchable":1,
+     "quickSearch":1
+    },
     { 
-     "key": "多多",
+      "key": "多多",
       "name": "多多〔切片〕",
       "type": 1,
       "api": "https://a.7dyu.cn/api.php/provide/vod/from/ddzy/",
