@@ -31,7 +31,7 @@ import java.util.regex.Pattern;
 import okhttp3.Call;
 
 
-/**
+/** 可当做影视工厂类的模板，蓝光，追剧喵，神马影院
  * 神马影院
  * <p>
  * Author: baddychen
