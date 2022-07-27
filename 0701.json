@@ -466,6 +466,11 @@
       "url": "https://jx.aidouer.net/?url="
     },
     {
+      "name":"ok",
+      "type":0,
+      "url":"https://api.okjx.cc:3389/jx.php?url="
+    },
+    {
       "name": "冰豆解析",
       "type": 0,
       "url": "https://bd.jx.cn/?url="
