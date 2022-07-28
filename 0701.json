@@ -465,16 +465,6 @@
       "name":"普通",
       "type":0,
       "url":"https://jhpc.021huaying.com/api.php?url="
-    },
-    {
-      "name":"yemu",
-      "type":0,
-      "url":"https://www.yemu.xyz/?url="
-    },
-    {
-      "name":"gai",
-      "type":0,
-      "url":"https://www.gai4.com/?url="
     }
   ],
   "flags": [
