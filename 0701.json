@@ -1,6 +1,6 @@
 {
   "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;b82bb46f98c468c3ba8b9257efe35abe",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;2f8e22d7d099484d39787465c79c4f27",
   "sites": [
     {
       "key": "厂长影视",
@@ -46,6 +46,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    }，
+    {
+      "key":"3EDY",
+      "name":"3EDY(EXO)",
+      "type":3,
+      "api":"csp_EEEDY",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
     },
     {
       "key": "小熊",
