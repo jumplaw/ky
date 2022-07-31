@@ -72,6 +72,16 @@
       ]
     },
     {
+      "key":"csp_xpath_wmkk",
+      "name":"完美看看(XP)",
+      "type":3,
+      "api":"csp_XPath",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"http://kvymin.github.io/CatVod/Xpath/wanmeikk.json"
+    },
+    {
       "key": "csp_xpath_cokemv",
       "name": "Cokemv〔XPF〕",
       "type": 3,
