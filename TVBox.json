@@ -132,24 +132,24 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
     },
     {
-      "key":"csp_biubiu_特狗影视",
-      "name":"特狗影视(XB)",
+      "key":"csp_biubiu_瓜皮TV",
+      "name":"瓜皮TV〔XB〕",
       "type":3,
       "api":"csp_XBiubiu",
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XBiubiu/特狗影视.json"
+      "ext":"https://kvymin.github.io/CatVod/XBiubiu/瓜皮TV.json"
     },
     {
-      "key":"csp_biubiu_F7好看剧",
-      "name":"F7好看剧(XB)",
+      "key":"csp_biubiu_大米星球",
+      "name":"大米星球〔XB〕",
       "type":3,
       "api":"csp_XBiubiu",
       "searchable":1,
       "quickSearch":1,
       "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XBiubiu/F7好看剧.json"
+      "ext":"https://kvymin.github.io/CatVod/XBiubiu/大米星球.json"
     },
     {
       "key": "csp_xml_木子看剧",
