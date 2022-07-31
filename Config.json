@@ -1,15 +1,38 @@
 { 
   "sites": [
- 
     {
-      "key": "555电影",
-      "name": "555电影(XB)",
+      "key": "极速",
+      "name": "极速〔聚〕",
+      "type": 1,
+      "api": "https://www.ddzyz1.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片"
+      ]
+    },
+     {
+      "key": "csp_biubiu_dmxq",
+      "name": "大米星球〔XB〕",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://kvymin.githu.io/CatVod/Xbiubiu/555dy.json"
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/dmxq.json"
     },
     {
       "key": "剧白白",
@@ -19,7 +42,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://kvymin.githu.io/CatVod/XPathMacFilter/jubaibai.json"
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/jubaibai.json"
     },
     {
       "key": "Bili",
