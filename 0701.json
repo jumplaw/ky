@@ -147,25 +147,6 @@
       "filterable": 1
     },
     {
-      "key":"Kmys",
-      "name":"酷猫〔SP〕",
-      "type":3,
-      "api":"csp_Kmys",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1
-    },
-    //{"key":"低端影视","name":"低端影视〔SP〕","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":1},
-    {
-      "key": "海外电影",
-      "name": "🌈海外电影(聚)",
-      "type": 1,
-      "api": "https://www.200121.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "Bili",
       "name": "B站〔SP〕",
       "type": 3,
@@ -294,30 +275,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/宝仙HD.json"
-    },
-    {
-      "key": "极速",
-      "name": "极速〔聚〕",
-      "type": 1,
-      "api": "https://www.ddzyz1.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ]
     },
     {
       "key": "Gitcafe",
