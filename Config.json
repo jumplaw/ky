@@ -24,6 +24,26 @@
         "战争片"
       ]
     },
+    {
+      "key": "csp_biubiu_特狗影视",
+      "name": "特狗影视〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/特狗影视.json"
+    },
+    {
+      "key": "csp_biubiu_F7好看剧",
+      "name": "F7好看剧〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/F7好看剧.json"
+    },
      {
       "key": "csp_biubiu_dmxq",
       "name": "大米星球〔XB〕",
