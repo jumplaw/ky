@@ -39,7 +39,7 @@
     },
     {
       "key": "优酷(官源)",
-      "name": "🏐优酷(采集)",
+      "name": "🏐优酷〔采集〕",
       "type": 0,
       "api": "http://www.zycaiji.net:7788/api.php/provide/vod/from/youku/at/xml/",
       "searchable": 1,
@@ -73,7 +73,7 @@
     },
     {
       "key":"csp_xpath_wmkk",
-      "name":"完美看看(XP)",
+      "name":"完美看看〔XP〕",
       "type":3,
       "api":"csp_XPath",
       "searchable":1,
@@ -113,7 +113,7 @@
     },
     {
       "key": "csp_xpath_zxzj",
-      "name": "在线之家(XPF)",
+      "name": "在线之家〔XPF〕",
       "type": 3,
       "api": "csp_XPathFilter",
       "searchable": 1,
@@ -133,7 +133,7 @@
     },
     {
       "key": "csp_xml_木子看剧",
-      "name": "🐝木子看剧",
+      "name": "🐝木子看剧〔聚〕",
       "type": 1,
       "api": "https://mzkj.maccms.cf/api.php/provide/vod/",
       "searchable": 1,
