@@ -10,15 +10,6 @@
       "filterable": 1
     },
     {
-      "key":"Jumi",
-      "name":"👒Jumi〔SP〕",
-      "type":3,
-      "api":"csp_Jumi",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1
-    },
-    {
       "key": "csp_QQ",
       "name": "🌀腾讯〔SP〕",
       "type": 3,
@@ -53,40 +44,12 @@
      "searchable":1,
      "quickSearch":1
     },
-    { 
-      "key": "多多",
-      "name": "多多〔切片〕",
-      "type": 1,
-      "api": "https://a.7dyu.cn/api.php/provide/vod/from/ddzy/",
-      "playUrl": "json:http://qiqi.520say.cn/json/dd.php?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "旋风",
-      "name": "旋风[EXO]",
-      "type": 1,
-      "api": "http://appimg.ssxmall.cn/api.php/provide/vod/",
-      "playUrl": "json:https://svip.iepig.com:4443/api/?key=SicQs2pG0Cw7BnWV9a&url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key":"快车资源",
-      "name":"快车资源(切)",
-      "type":1,
-      "api":"https://caiji.kczyapi.com/api.php/provide/vod/",
-      "searchable":1,
-      "quickSearch":1
-    },
     {   
       "key":"红牛",
       "name":"红牛〔聚〕",
       "type": 1,
       "api":"https://www.hongniuzy2.com/api.php/provide/vod/",
-      "playUrl":"json:https://www.tutukiki.com/m3u8/?url=",
+      "playUrl":"",
       "searchable": 1,
       "filterable": 1,
       "categories":[]
@@ -98,22 +61,6 @@
       "api":"http://www.6uzy.cc/inc/apijson_vod.php",
       "searchable":0,
       "quickSearch":0
-    },
-    {
-      "key":"土狗2345",
-      "name":"土狗2345(官)",
-      "type":1,
-      "api":"http://2345.tgzy.cc/api.php/provide/vod/",
-      "searchable":1,
-      "quickSearch":1
-    },
-    {
-      "key":"土狗360",
-      "name":"土狗360(官)",
-      "type":1,
-      "api":"http://360.tgzy.cc/api.php/provide/vod/",
-      "searchable":1,
-      "quickSearch":1
     },
     {
       "key": "极速",
@@ -234,21 +181,10 @@
   ],
   "parses": [
     {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json并发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
       "name": "Json轮询",
       "type": 2,
       "url": "Sequence"
     },
-    {"name":"左岸","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905","优播线路","腾播线路"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
     {"name":"未知","type":1,"url":"http://106.52.218.221:88/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
     {"name":"parwix1","type":0,"url":"https://jx.parwix.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}, 
     {"name":"parwix2","type":0,"url":"https://jx.parwix.com:4433/player/analysis.php?v=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}
