@@ -1,5 +1,5 @@
 {
-  "wallpaper": "https://picsum.photos/1280/720/?blur=10",
+  //"wallpaper": "https://picsum.photos/1280/720/?blur=10",
   "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;50709eef510957a39acbc9ec29de8cd5",
   "sites": [
     {
@@ -148,46 +148,6 @@
     },
     //{"key":"Kmys","name":"酷猫〔SP〕","type":3,"api":"csp_Kmys","searchable":1,"quickSearch":1,"filterable":1},
     //{"key":"低端影视","name":"低端影视〔SP〕","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":1},
-    {
-      "key": "9E03",
-      "name": "9E03〔V2〕",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"
-    },
-    {
-      "key": "爱酷",
-      "name": "📺爱酷〔V2〕",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
-    },
-    {
-      "key": "300看世界",
-      "name": "🎬300看世界〔V2〕",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://300ys.xyz/mogai_api.php/v1.vod"
-    },
-    {
-      "key": "csp_appys_美剧虫",
-      "name": "🐞美剧虫〔V1〕",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://meijuchong.com/api.php/v1.vod"
-    },
     {
       "key": "海外电影",
       "name": "🌈海外电影(聚)",
