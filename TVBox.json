@@ -97,40 +97,12 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
     },
     {
-      "key": "动漫84",
-      "name": "动漫84〔XP〕",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/Xpath/dm84.json"
-    },
-    {
      "key":"csp_xml_木子看剧",
      "name":"🐝木子看剧",
      "type":1,
      "api":"https://mzkj.maccms.cf/api.php/provide/vod/",
      "searchable":1,
      "quickSearch":1
-    },
-    {   
-      "key":"红牛",
-      "name":"红牛〔聚〕",
-      "type": 1,
-      "api":"https://www.hongniuzy2.com/api.php/provide/vod/",
-      "playUrl":"",
-      "searchable": 1,
-      "filterable": 1,
-      "categories":[]
-    },
-    {
-      "key":"6U资源",
-      "name":"6U资源(官)",
-      "type":1,
-      "api":"http://www.6uzy.cc/inc/apijson_vod.php",
-      "searchable":0,
-      "quickSearch":0
     },
     {
       "key": "极速",
@@ -185,6 +157,7 @@
       "type": 2,
       "url": "Sequence"
     },
+    {"name":"fuqi","type":1,"url":"https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url="},
     {"name":"未知","type":1,"url":"http://106.52.218.221:88/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
     {"name":"parwix1","type":0,"url":"https://jx.parwix.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}, 
     {"name":"parwix2","type":0,"url":"https://jx.parwix.com:4433/player/analysis.php?v=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}
