@@ -1,6 +1,16 @@
 { 
   "sites": [
     {
+      "key": "Gitcafe",
+      "name": "小纸条〔SP〕",
+      "type": 3,
+      "api": "csp_Gitcafe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "1f373a68733e4dafa5fa28dca9826b35"
+    },
+    {
       "key": "极速",
       "name": "极速〔聚〕",
       "type": 1,
