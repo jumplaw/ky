@@ -1,4 +1,5 @@
 {
+  "spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
   "sites": [
     {
       "key": "csp_Xpath_lezhu",
@@ -504,6 +505,5 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ],
-  "spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a"
+  ]
 }
