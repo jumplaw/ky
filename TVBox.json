@@ -195,6 +195,11 @@
       "ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
     }, 
     {
+      "name":"极速1号",
+      "type":1,
+      "url":"https://play.fuqizhishi.com/mov/API.php?appkey=QQ172598364&url="
+    },
+    {
       "name": "未知",
       "type": 1,
       "url": "http://106.52.218.221:88/?url=",
@@ -217,6 +222,34 @@
           "bilibili",
           "哔哩哔哩",
           "哔哩"
+        ]
+      }
+    },
+    {
+      "name":"极速12号",
+      "type":1,
+      "url":"https://za.kuanjv.com/?url=",
+      "ext":{
+         "flag":[
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+          "xigua",
+          "西瓜"
         ]
       }
     },
