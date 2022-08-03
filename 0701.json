@@ -376,6 +376,11 @@
         }
       }
     },
+   {
+      "name": "aiku",
+      "type": 1,
+      "url": "https://cache.json.icu/home/api?type=ys&uid=292796&key=bhjknprtuyACFIWY78&url="
+    },
     {
       "name": "nxflv",
       "type": 1,
