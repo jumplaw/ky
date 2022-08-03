@@ -56,7 +56,7 @@
 "bfyjiequshuzuqian": "<a", 
 "bfyjiequshuzuhou": "/a>",
 "bfbiaotiqian": ">",
-//"bfbiaotihou": "</span>", 
-"bfbiaotihou": "</>",  
+"bfbiaotihou": "</span>", 
 "bflianjieqian": "href=\"",
-"bflianjiehou": "\""}
+"bflianjiehou": "\""
+}
