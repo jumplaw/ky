@@ -1,6 +1,6 @@
 {
   //"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-  "spider": "https://kvymin.github.io/CatVod/jar/0801_spider.jar;md5;e55959c3da426a2c528e220332b76a3a",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider_0803.jar;md5;7a7e8073d59022b0de11aa135c60b05f",
   "sites": [
     {
       "key": "csp_CZSPP",
