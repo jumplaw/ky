@@ -1,6 +1,7 @@
 {"name": "茶杯狐",
 "url": "https://www.cupfox.cc/",
-"tihuan": "cnzz.com",
+"tihuan": "cnzz.com", 
+"shouye": "1",
 "fenlei": "电影$/fox/1-#电视剧$/fox/2-#综艺$/fox/3-#动漫$/fox/4-#伦理片$/fox/20-",
 "houzhui": ".html",
 "shifouercijiequ": "0",
@@ -55,6 +56,7 @@
 "bfyjiequshuzuqian": "<a", 
 "bfyjiequshuzuhou": "/a>",
 "bfbiaotiqian": ">",
-"bfbiaotihou": "</span>", 
+//"bfbiaotihou": "</span>", 
+"bfbiaotihou": "</>",  
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""}
