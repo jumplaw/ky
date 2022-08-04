@@ -166,6 +166,26 @@
       "filterable": 1
     },
     {
+      "key": "Lezhu_spider",
+      "name": "乐猪影视",
+      "api": "csp_Lezhu",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "ext": ""
+    },
+    {
+	"key": "KanSJ_spider",
+	"name": "看视界",
+	"api": "csp_KanSJ",
+	"type": 3,
+	"filterable": 1,
+	"quickSearch": 1,
+	"searchable": 1,
+	"ext": "
+    },
+    {
       "key": "csp_BBB",
       "name": "哔哩哔哩",
       "type": 3,
