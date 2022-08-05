@@ -334,7 +334,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "28801b1dbaf4418fb7bc221a575703dd"
+      "ext": "dcbc975ad0684eb5a498ecd1836272e6"
     }
   ],
   "lives": [
@@ -492,6 +492,14 @@
       "type": 1,
       "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url="
     },
+    {
+		  "name": "8",
+		  "type": 1,
+		  "url": "https://app.iminna.com/jx/?url=",
+		  "ext": {
+	  		"flag": ["youku", "优酷", "mgtv", "芒果", "qq", "腾讯", "qiyi", "爱奇艺", "qq", "奇艺"]
+  	    }
+	  },
     {
       "name": "parwix",
       "type": 0,
