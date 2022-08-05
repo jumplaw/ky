@@ -32,7 +32,7 @@
     },
     {
       "key": "神马影院",
-      "name": "神马影院",
+      "name": "神马影院〔SP〕",
       "type": 3,
       "api": "csp_Smdyy",
       "searchable": 1,
@@ -40,14 +40,14 @@
       "filterable": 1
     },
     {
-		  "key": "酷猫",
-		  "name": "酷猫",
-		  "type": 3,
-		  "api": "csp_Kmys",
-		  "searchable": 1,
-		  "quickSearch": 1,
-		  "filterable": 1
-	  },
+      "key": "酷猫",
+      "name": "酷猫〔SP〕",
+      "type": 3,
+      "api": "csp_Kmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "Kuaikan",
       "name": "快看〔SP〕",
@@ -288,7 +288,7 @@
     },
     {
       "key":"茶杯狐",
-      "name":"🦊茶杯狐",
+      "name":"茶杯狐〔XB〕",
       "type":3,
       "api":"csp_XBiubiu",
       "searchable":1,
@@ -334,7 +334,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "ad3c78559a494bde814f1a6c8c40db51"
+      "ext": "28801b1dbaf4418fb7bc221a575703dd"
     }
   ],
   "lives": [
