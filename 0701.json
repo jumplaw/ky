@@ -237,6 +237,16 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/huohuo.json"
     },
     {
+      "key":"csp_xpath_喵乐",
+      "name":"喵乐(XPF)",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/喵乐.json"
+    },
+    {
       "key": "csp_xpath_naifeiorg",
       "name": "奈飞中文〔XPF〕",
       "type": 3,
