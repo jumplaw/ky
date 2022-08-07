@@ -256,6 +256,16 @@
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/naifeiorg.json"
     },
+    { 
+      "key":"csp_桔子TV",
+      "name":"桔子TV",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1, 
+      "filterable":0,
+      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/桔子TV.json" 
+    },
     {
       "key": "csp_biubiu_kdys",
       "name": "口袋影院〔XB〕",
