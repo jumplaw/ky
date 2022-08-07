@@ -177,6 +177,16 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
     },
     {
+      "key": "csp_Xpath_Gimy",
+      "name": "剧迷影视〔XPM〕",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/csp_XPathMacFilter/Gimy.json"
+    },
+    {
       "key": "bdys",
       "name": "哔嘀〔磁力测试〕",
       "type": 3,
