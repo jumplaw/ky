@@ -523,13 +523,13 @@
       "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url="
     },
     {
-		  "name": "8",
-		  "type": 1,
-		  "url": "https://app.iminna.com/jx/?url=",
-		  "ext": {
-	  		"flag": ["youku", "优酷", "mgtv", "芒果", "qq", "腾讯", "qiyi", "爱奇艺", "qq", "奇艺"]
-  	    }
-	  },
+       "name": "8",
+       "type": 1,
+       "url": "https://app.iminna.com/jx/?url=",
+	  "ext": {
+	  	"flag": ["youku", "优酷", "mgtv", "芒果", "qq", "腾讯", "qiyi", "爱奇艺", "qq", "奇艺"]
+           }
+    },
     {
       "name": "parwix",
       "type": 0,
