@@ -177,14 +177,14 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
     },
     {
-      "key": "csp_Xpath_Jumi",
-      "name": "剧迷TV〔XPM〕",
+      "key": "csp_Xpath_bttwoo",
+      "name": "2BT〔XPM〕",
       "type": 3,
-      "api": "csp_XPathMacFilter",
+      "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/csp_XPathMacFilter/Jumi.json"
+      "ext": "http://kvymin.github.io/CatVod/Xpath/bttwoo.json"
     },
     {
       "key": "bdys",
