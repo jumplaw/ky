@@ -258,7 +258,7 @@
     },
     { 
       "key":"csp_桔子TV",
-      "name":"桔子TV",
+      "name":"桔子TV〔XPF〕",
       "type":3,
       "api":"csp_XPathMacFilter",
       "searchable":1,
