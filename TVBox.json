@@ -185,6 +185,19 @@
       "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url="
     },
     {
+      "name": "fuqi2",
+      "type": 1,
+      "url": "https://play.fuqizhishi.com/mov/API.php?appkey=QQ172598364&url="
+    },
+    {
+      "name":"油果",
+      "type":1,
+      "url":"http://json.youguo520.top/fufeng/?url=",
+      "ext":{
+      "flag":["qiyi","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果"],
+      "header":{"User-Agent":"Dart/2.14 (dart:io)"}}
+    },
+    {
       "name": "parwix1",
       "type": 0,
       "url": "https://jx.parwix.com:4433/player/?url=",
