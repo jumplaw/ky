@@ -438,14 +438,14 @@
       "url": "https://play.fuqizhishi.com/mov/API.php?appkey=QQ172598364&url="
     },
     {
-      "name":"293②",
+      "name":"293",
       "type":1,
       "url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=",
       "ext":
          {"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
     },
     {
-      "name":"解析OKjx综合",
+      "name":"综合",
       "type":0,
       "url":"https://okjx.cc/?url="
     },
