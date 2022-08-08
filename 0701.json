@@ -445,6 +445,11 @@
          {"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
     },
     {
+      "name":"解析OKjx综合",
+      "type":0,
+      "url":"https://okjx.cc/?url="
+    },
+    {
       "name": "parwix",
       "type": 0,
       "url": "https://jx.bozrc.com:4433/player/?url="
