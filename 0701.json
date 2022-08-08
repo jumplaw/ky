@@ -438,6 +438,13 @@
       "url": "https://play.fuqizhishi.com/mov/API.php?appkey=QQ172598364&url="
     },
     {
+      "name":"293②",
+      "type":1,
+      "url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=fgjnoqstLMRUZ03489&url=",
+      "ext":
+         {"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
+    },
+    {
       "name": "parwix",
       "type": 0,
       "url": "https://jx.bozrc.com:4433/player/?url="
