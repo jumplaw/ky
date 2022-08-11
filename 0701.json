@@ -347,6 +347,16 @@
       "ext":"https://kvymin.github.io/CatVod/XBiubiu/茶杯狐.json"
     },
     {
+      "key":"voflix",
+      "name":"voflix〔XB〕",
+      "type":3,
+      "api":"csp_XBiubiu",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"https://kvymin.github.com/CatVod/XBiubiu/voflix.json"
+    },
+    {
       "key": "Gitcafe",
       "name": "小纸条〔SP〕",
       "type": 3,
