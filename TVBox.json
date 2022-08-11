@@ -1,37 +1,7 @@
 {
-  //"spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
+   //"spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
   "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;d63fe3db21b48e04884c2d5303907bd1",
-  "sites": [   
-    {
-      "key": "Gitcafe",
-      "name": "小纸条〔SP〕",
-      "type": 3,
-      "api": "csp_Gitcafe",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "1f373a68733e4dafa5fa28dca9826b35"
-    },
-    {
-      "key": "zhaozy",
-      "name": "找资源〔SP〕",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "28801b1dbaf4418fb7bc221a575703dd"
-    },
-    {
-      "key": "AliPS",
-      "name": "盘搜〔SP〕",
-      "type": 3,
-      "api": "csp_AliPS",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "28801b1dbaf4418fb7bc221a575703dd"
-    },
+  "sites": [
     {
       "key": "csp_Xpath_lezhu",
       "name": "乐猪影视〔XPM〕",
@@ -63,14 +33,14 @@
       "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
     },
     {
-      "key":"csp_xpath_saohuotv",
-      "name":"骚火影视(XPF)",
-      "type":3,
-      "api":"csp_XPath",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"https://kvymin.github.io/CatVod/Xpath/saohuotv.json"
+      "key": "csp_xpath_saohuotv",
+      "name": "骚火影视(XPF)",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/saohuotv.json"
     },
     {
       "key": "csp_biubiu_dmxq",
@@ -113,14 +83,14 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/huohuo.json"
     },
     {
-      "key":"csp_xpath_喵乐",
-      "name":"喵乐(XPF)",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/喵乐.json"
+      "key": "csp_xpath_喵乐",
+      "name": "喵乐(XPF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/喵乐.json"
     },
     {
       "key": "csp_xpath_naifeiorg",
@@ -132,25 +102,25 @@
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/naifeiorg.json"
     },
-    { 
-      "key":"csp_桔子TV",
-      "name":"桔子TV〔XPF〕",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1, 
-      "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/桔子TV.json" 
+    {
+      "key": "csp_桔子TV",
+      "name": "桔子TV〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/桔子TV.json"
     },
     {
-      "key":"csp_appys_美剧虫",
-      "name":"美剧虫(XPF)",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/meijuchong.json"
+      "key": "csp_appys_美剧虫",
+      "name": "美剧虫(XPF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/meijuchong.json"
     },
     {
       "key": "csp_biubiu_kdys",
@@ -193,24 +163,24 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/宝仙HD.json"
     },
     {
-      "key":"茶杯狐",
-      "name":"茶杯狐〔XB〕",
-      "type":3,
-      "api":"csp_XBiubiu",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XBiubiu/茶杯狐.json"
+      "key": "茶杯狐",
+      "name": "茶杯狐〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/茶杯狐.json"
     },
     {
-      "key":"voflix",
-      "name":"voflix〔XB〕",
-      "type":3,
-      "api":"csp_XBiubiu",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://kvymin.github.com/CatVod/XBiubiu/voflix.json"
+      "key": "voflix",
+      "name": "voflix〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.com/CatVod/XBiubiu/voflix.json"
     },
     {
       "key": "bdys",
@@ -253,7 +223,7 @@
     },
     {
       "key": "海外电影",
-      "name": "🌈海外电影(聚)",
+      "name": "🌈海外电影〔聚〕",
       "type": 1,
       "api": "https://www.200121.com/api.php/provide/vod/",
       "searchable": 1,
@@ -283,6 +253,36 @@
         "剧情片",
         "战争片"
       ]
+    },
+    {
+      "key": "Gitcafe",
+      "name": "小纸条〔SP〕",
+      "type": 3,
+      "api": "csp_Gitcafe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "1f373a68733e4dafa5fa28dca9826b35"
+    },
+    {
+      "key": "zhaozy",
+      "name": "找资源〔SP〕",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "28801b1dbaf4418fb7bc221a575703dd"
+    },
+    {
+      "key": "AliPS",
+      "name": "盘搜〔SP〕",
+      "type": 3,
+      "api": "csp_AliPS",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "28801b1dbaf4418fb7bc221a575703dd"
     },
     {
       "key": "push_agent",
@@ -324,10 +324,32 @@
       "url": "Sequence"
     },
     {
-      "name":"油果",
-      "type":1,
-      "url":"http://json.youguo520.top/fufeng/?url=",
-      "ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
+      "name": "油果",
+      "type": 1,
+      "url": "http://json.youguo520.top/fufeng/?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Dart/2.14 (dart:io)"
+        }
+      }
     },
     {
       "name": "nxflv",
@@ -338,15 +360,28 @@
       "name": "江湖",
       "type": 1,
       "url": "http://27.124.4.42:4567/jhjson/ceshi.php?url=",
-      "ext": 
-         {"flag":
-            ["qq", "qiyi", "mgtv", "youku", "letv", "sohu", "xigua", "1905", "优播线路", "腾播线路"],"header": {"User-Agent": "Dart/2.14 (dart:io)"}
-       }
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "mgtv",
+          "youku",
+          "letv",
+          "sohu",
+          "xigua",
+          "1905",
+          "优播线路",
+          "腾播线路"
+        ],
+        "header": {
+          "User-Agent": "Dart/2.14 (dart:io)"
+        }
+      }
     },
     {
-      "name":"综合",
-      "type":0,
-      "url":"https://okjx.cc/?url="
+      "name": "综合",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
     },
     {
       "name": "parwix",
