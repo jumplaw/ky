@@ -287,6 +287,16 @@
       "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/桔子TV.json" 
     },
     {
+      "key":"csp_appys_美剧虫",
+      "name":"美剧虫(V1)",
+      "type":3,
+      "api":"csp_XPathMacFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/meijuchong.json"
+    },
+    {
       "key": "csp_biubiu_kdys",
       "name": "口袋影院〔XB〕",
       "type": 3,
