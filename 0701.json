@@ -187,16 +187,6 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
     },
     {
-      "key": "csp_Xpath_bttwoo",
-      "name": "2BT〔XPM〕",
-      "type": 3,
-      "api": "csp_XPath",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://kvymin.github.io/CatVod/Xpath/bttwoo.json"
-    },
-    {
       "key": "bdys",
       "name": "哔嘀〔磁力测试〕",
       "type": 3,
@@ -207,106 +197,6 @@
       "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
     },
     {
-      "key":"csp_xpath_saohuotv",
-      "name":"骚火影视(XPF)",
-      "type":3,
-      "api":"csp_XPath",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"https://kvymin.github.io/CatVod/Xpath/saohuotv.json"
-    },
-    {
-      "key": "csp_biubiu_dmxq",
-      "name": "大米星球〔XB〕",
-      "type": 3,
-      "api": "csp_XBiubiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XBiubiu/dmxq.json"
-    },
-    {
-      "key": "剧白白",
-      "name": "剧白白〔XPF〕",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/jubaibai.json"
-    },
-    {
-      "key": "csp_xpath_ddg",
-      "name": "达达龟〔XPF〕",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
-    },
-    {
-      "key": "csp_xpath_hhys",
-      "name": "火火影视〔XPF〕",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/huohuo.json"
-    },
-    {
-      "key":"csp_xpath_喵乐",
-      "name":"喵乐(XPF)",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1,
-      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/喵乐.json"
-    },
-    {
-      "key": "csp_xpath_naifeiorg",
-      "name": "奈飞中文〔XPF〕",
-      "type": 3,
-      "api": "csp_XPathMacFilter",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/naifeiorg.json"
-    },
-    { 
-      "key":"csp_桔子TV",
-      "name":"桔子TV〔XPF〕",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1, 
-      "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/桔子TV.json" 
-    },
-    {
-      "key":"csp_appys_美剧虫",
-      "name":"美剧虫(XPF)",
-      "type":3,
-      "api":"csp_XPathMacFilter",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XPathMacFilter/meijuchong.json"
-    },
-    {
-      "key": "csp_biubiu_kdys",
-      "name": "口袋影院〔XB〕",
-      "type": 3,
-      "api": "csp_XBiubiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XBiubiu/kdys.json"
-    },
-    {
       "key": "csp_biubiu_555电影",
       "name": "555电影〔XB〕",
       "type": 3,
@@ -315,46 +205,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/555电影.json"
-    },
-    {
-      "key": "csp_biubiu_橘子tv",
-      "name": "橘子tv〔XB〕",
-      "type": 3,
-      "api": "csp_XBiubiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XBiubiu/juzi.json"
-    },
-    {
-      "key": "csp_biubiu_宝仙HD",
-      "name": "宝仙HD〔XB〕",
-      "type": 3,
-      "api": "csp_XBiubiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XBiubiu/宝仙HD.json"
-    },
-    {
-      "key":"茶杯狐",
-      "name":"茶杯狐〔XB〕",
-      "type":3,
-      "api":"csp_XBiubiu",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://kvymin.github.io/CatVod/XBiubiu/茶杯狐.json"
-    },
-    {
-      "key":"voflix",
-      "name":"voflix〔XB〕",
-      "type":3,
-      "api":"csp_XBiubiu",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"https://kvymin.github.com/CatVod/XBiubiu/voflix.json"
     },
     {
       "key": "Gitcafe",
