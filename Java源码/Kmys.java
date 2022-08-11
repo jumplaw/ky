@@ -19,7 +19,9 @@ import org.json.JSONObject;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.net.URLEncoder;
+import java.security.Key;
 import java.security.KeyFactory;
+import java.security.PublicKey;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.ArrayList;
@@ -47,9 +49,15 @@ public class Kmys extends Spider {
 
     private String device = null;
 
+    public static final String KEY_ALGORITHM = "RSA";
+
+    private static final int MAX_DECRYPT_BLOCK = 128;
+
+
     @Override
     public void init(Context context) {
         super.init(context);
+        getkey();
         SharedPreferences sharedPreferences = context.getSharedPreferences("sp_Kmys", Context.MODE_PRIVATE);
         try {
             device = sharedPreferences.getString("device", null);
@@ -458,7 +466,7 @@ public class Kmys extends Spider {
     }
 
     private static HashMap<String, String> kmysPlayerHeaders = null;
-    private static String signPlayerStr = "TBW1zF4p1j";
+    private static String signPlayerStr = "";
     private static final Pattern tsRex = Pattern.compile("(\\S+.ts)|(#EXT-X-KEY:\\S+\")(\\S+)(\")");
 
     static String subUrl(String url) {
@@ -564,4 +572,91 @@ public class Kmys extends Spider {
         }
         return null;
     }
+
+    public static void getkey(){
+        if (signPlayerStr.isEmpty()){
+            ////https://video-api.kumaoys.cn/api/v2/b/83708861
+            String url = "https://mtv.stvmts.com/api/v2/b/"+((int) (Math.random() * 100000000));
+            HashMap hashMap = new HashMap();
+            hashMap.put("versionNumber", "360");
+            hashMap.put("versionName", "3.6.0");
+            hashMap.put("device", "8094a1cc05b48ed0dfda3d9dc0b2077f1657938026279");
+            //hashMap.put("appId", "5");
+            hashMap.put("platformId", "7");
+            hashMap.put("User-Agent", "okhttp/3.14.7");
+            hashMap.put("Pragma", "Pragma:: no-cache");
+            hashMap.put("Cache-Control", "no-cache");
+            hashMap.put("Host", "mtv.stvmts.com");
+            hashMap.put("Content-Type", "application/json; charser=utf-8");
+            JSONObject jsonObject = new JSONObject();
+            try {
+                int random = (int)(Math.random()*1.0E8d);
+                int time = (int)(System.currentTimeMillis()/1000);
+                String signBefore = "p=com.kumao.yingshi&t=" + time + "&r=" + random + "&s=36eff39894f62d333fd3f488cffbf364&pl=1";
+                jsonObject.put("s",Misc.MD5(signBefore,Misc.CharsetUTF8));
+                jsonObject.put("t",time);
+                jsonObject.put("r",random);
+                jsonObject.put("i",5);
+                jsonObject.put("p",1);
+                OkHttpUtil.postJson(OkHttpUtil.defaultClient(), url, jsonObject.toString(), hashMap, new OKCallBack.OKCallBackString() {
+                    @Override
+                    public void onFailure(Call call, Exception e) {
+                    }
+
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+
+                            JSONObject jsonObject = new JSONObject(response).getJSONObject("data");
+                            String a = new String(Base64.decode(jsonObject.getString("a"),Base64.DEFAULT));
+                            String k = new String(Base64.decode(jsonObject.getString("k"),Base64.DEFAULT));
+                            String z = new String(Base64.decode(jsonObject.getString("z"),Base64.DEFAULT));
+
+                            String sum=k+z+a;
+                            byte[] byte_sum=Base64.decode(sum,Base64.DEFAULT);
+                            byte[] jiemi=decryptByPublicKey(byte_sum,"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCt/dLGQj1Iimj0LIUMUXgBGUjsfrm6o1/pZjXXVLL3py2vLktNtSoJU+69v1tUXZqiU9BqMHApVmMOtOnkL5J+ENdLIX3bXnNtfNJpYX4Iz8OBMqKdDch80gN8rLkTPReFkBGsMAndKpc0iMdgd6nts/gQ3wUBNJKpmOG35UateQIDAQAB");
+                            String data =new String(jiemi,Misc.CharsetUTF8);
+                            signPlayerStr = new JSONObject(data).optString("key");
+                        } catch (JSONException e) {
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                });
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+    public static byte[] decryptByPublicKey(byte[] encryptedData, String publicKey) throws Exception {
+        byte[] keyBytes = Base64.decode(publicKey,Base64.DEFAULT);
+        X509EncodedKeySpec x509KeySpec = new X509EncodedKeySpec(keyBytes);
+        KeyFactory keyFactory = KeyFactory.getInstance(KEY_ALGORITHM);
+        Key publicK = keyFactory.generatePublic(x509KeySpec);
+        Cipher cipher = Cipher.getInstance(keyFactory.getAlgorithm());
+        cipher.init(Cipher.DECRYPT_MODE, publicK);
+        int inputLen = encryptedData.length;
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        int offSet = 0;
+        byte[] cache;
+        int i = 0;
+        // 对数据分段解密
+        while (inputLen - offSet > 0) {
+            if (inputLen - offSet > MAX_DECRYPT_BLOCK) {
+                cache = cipher.doFinal(encryptedData, offSet, MAX_DECRYPT_BLOCK);
+            } else {
+                cache = cipher.doFinal(encryptedData, offSet, inputLen - offSet);
+            }
+            out.write(cache, 0, cache.length);
+            i++;
+            offSet = i * MAX_DECRYPT_BLOCK;
+        }
+        byte[] decryptedData = out.toByteArray();
+        out.close();
+        return decryptedData;
+    }
+
 }

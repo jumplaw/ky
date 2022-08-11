@@ -2,11 +2,10 @@ package com.github.catvod.spider;
 
 import android.content.Context;
 import android.text.TextUtils;
-import android.util.Base64;
 
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.crawler.SpiderDebug;
-import com.github.catvod.utils.okhttp.OKCallBack;
+import com.github.catvod.utils.Misc;
 import com.github.catvod.utils.okhttp.OkHttpUtil;
 
 import org.json.JSONArray;
@@ -28,37 +27,25 @@ import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import okhttp3.Call;
+public class Xifanys extends Spider {
 
+    private static final String siteUrl = "https://www.xifanys.com/";
+    private static final String siteHost = "xifanys.com";
 
-/**
- * 神马影院
- * <p>
- * Author: baddychen
- */
-public class Smdyy extends Spider {
-    private static final String siteUrl = "https://www.smdyy.cc";
+    protected JSONObject playerConfig;
+    protected JSONObject filterConfig;
 
-    /**
-     * 播放源配置
-     */
-    private JSONObject playerConfig;
-    /**
-     * 筛选配置
-     */
-    private JSONObject filterConfig;
-
-    private Pattern regexCategory = Pattern.compile("/list/(\\d+).html");
-    private Pattern regexVid = Pattern.compile("/kan/(\\d+).html");
-    private Pattern regexPlay = Pattern.compile("/play/(\\d+)-(\\d+)-(\\d+).html");
-    private Pattern regexPage = Pattern.compile("/show/(\\S+).html");
+    protected Pattern regexCategory = Pattern.compile("/yingpiantype/(\\S+).html");
+    protected Pattern regexVid = Pattern.compile("/yingpiandetail/(\\S+).html");
+    protected Pattern regexPlay = Pattern.compile("/yingpianplay/(\\S+)-(\\d+)-(\\d+).html");
+    protected Pattern regexPage = Pattern.compile("/yingpianshow/(\\S+).html");
 
     @Override
     public void init(Context context) {
         super.init(context);
         try {
-            playerConfig = new JSONObject("{\"duoduozy\":{\"show\":\"高清线路\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"sohu\":{\"show\":\"优选7\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"qq\":{\"show\":\"优选3\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"bilibili\":{\"show\":\"bilibili\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"youku\":{\"show\":\"优选1\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"qiyi\":{\"show\":\"优选2\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"letv\":{\"show\":\"优选6\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"xigua\":{\"show\":\"西瓜视频\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"mgtv\":{\"show\":\"优选4\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"tkm3u8\":{\"show\":\"备用\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"},\"pptv\":{\"show\":\"优选5\",\"or\":999,\"ps\":\"0\",\"parse\":\"https://player.6080kan.cc/player/play.php?url=\"}}");
-            filterConfig = new JSONObject("{}");
+            playerConfig = new JSONObject("{\"tkm3u8\":{\"sh\":\"R播\",\"pu\":\",\"sn\":0,\"or\":999},\"if101\":{\"sh\":\"Y播\",\"pu\":\"\",\"sn\":0,\"or\":999}}");
+            filterConfig = new JSONObject("{\"20\":[{\"key\":\"0\",\"name\":\"类型\",\"value\":[{\"n\":\"全部\",\"v\":\"20\"},{\"n\":\"动作片\",\"v\":\"24\"},{\"n\":\"喜剧片\",\"v\":\"25\"},{\"n\":\"愛情片\",\"v\":\"26\"},{\"n\":\"科幻片\",\"v\":\"27\"},{\"n\":\"恐怖片\",\"v\":\"28\"},{\"n\":\"劇情片\",\"v\":\"11\"},{\"n\":\"戰爭片\",\"v\":\"30\"},{\"n\":\"动画电影\",\"v\":\"33\"}]},{\"key\":1,\"name\":\"地区\",\"value\":[{\"n\":\"全部\",\"v\":\"\"},{\"n\":\"大陆\",\"v\":\"大陆\"},{\"n\":\"香港\",\"v\":\"香港\"},{\"n\":\"台湾\",\"v\":\"台湾\"},{\"n\":\"美国\",\"v\":\"美国\"},{\"n\":\"法国\",\"v\":\"法国\"},{\"n\":\"英国\",\"v\":\"英国\"},{\"n\":\"日本\",\"v\":\"日本\"},{\"n\":\"韩国\",\"v\":\"韩国\"},{\"n\":\"德国\",\"v\":\"德国\"},{\"n\":\"泰国\",\"v\":\"泰国\"},{\"n\":\"印度\",\"v\":\"印度\"},{\"n\":\"意大利\",\"v\":\"意大利\"},{\"n\":\"西班牙\",\"v\":\"西班牙\"},{\"n\":\"加拿大\",\"v\":\"加拿大\"},{\"n\":\"其他\",\"v\":\"其他\"}]},{\"key\":11,\"name\":\"年份\",\"value\":[{\"n\":\"全部\",\"v\":\"\"},{\"n\":\"2021\",\"v\":\"2021\"},{\"n\":\"2020\",\"v\":\"2020\"},{\"n\":\"2019\",\"v\":\"2019\"},{\"n\":\"2018\",\"v\":\"2018\"},{\"n\":\"2017\",\"v\":\"2017\"},{\"n\":\"2016\",\"v\":\"2016\"},{\"n\":\"2015\",\"v\":\"2015\"},{\"n\":\"2014\",\"v\":\"2014\"},{\"n\":\"2013\",\"v\":\"2013\"},{\"n\":\"2012\",\"v\":\"2012\"},{\"n\":\"2011\",\"v\":\"2011\"},{\"n\":\"2010\",\"v\":\"2010\"}]},{\"key\":2,\"name\":\"排序\",\"value\":[{\"n\":\"时间\",\"v\":\"time\"},{\"n\":\"人气\",\"v\":\"hits\"},{\"n\":\"评分\",\"v\":\"score\"}]}],\"21\":[{\"key\":\"tid\",\"name\":\"类型\",\"value\":[{\"n\":\"全部\",\"v\":\"\"},{\"n\":\"国产剧\",\"v\":\"34\"},{\"n\":\"港剧\",\"v\":\"35\"},{\"n\":\"韩剧\",\"v\":\"37\"},{\"n\":\"欧美剧\",\"v\":\"36\"},{\"n\":\"日本剧\",\"v\":\"38\"},{\"n\":\"台湾剧\",\"v\":\"39\"},{\"n\":\"海外剧\",\"v\":\"40\"}]},{\"key\":11,\"name\":\"年份\",\"value\":[{\"n\":\"全部\",\"v\":\"\"},{\"n\":\"2021\",\"v\":\"2021\"},{\"n\":\"2020\",\"v\":\"2020\"},{\"n\":\"2019\",\"v\":\"2019\"},{\"n\":\"2018\",\"v\":\"2018\"},{\"n\":\"2017\",\"v\":\"2017\"},{\"n\":\"2016\",\"v\":\"2016\"},{\"n\":\"2015\",\"v\":\"2015\"},{\"n\":\"2014\",\"v\":\"2014\"},{\"n\":\"2013\",\"v\":\"2013\"},{\"n\":\"2012\",\"v\":\"2012\"},{\"n\":\"2011\",\"v\":\"2011\"},{\"n\":\"2010\",\"v\":\"2010\"},{\"n\":\"2009\",\"v\":\"2009\"},{\"n\":\"2008\",\"v\":\"2008\"},{\"n\":\"2007\",\"v\":\"2007\"},{\"n\":\"2006\",\"v\":\"2006\"},{\"n\":\"2005\",\"v\":\"2005\"},{\"n\":\"2004\",\"v\":\"2004\"}]},{\"key\":2,\"name\":\"排序\",\"value\":[{\"n\":\"时间\",\"v\":\"time\"},{\"n\":\"人气\",\"v\":\"hits\"},{\"n\":\"评分\",\"v\":\"score\"}]}],\"22\":[{\"key\":0,\"name\":\"类型\",\"value\":[{\"n\":\"全部\",\"v\":\"22\"},{\"n\":\"大陆综艺\",\"v\":\"41\"},{\"n\":\"港台综艺\",\"v\":\"42\"},{\"n\":\"日韩综艺\",\"v\":\"43\"},{\"n\":\"欧美综艺\",\"v\":\"44\"}]},{\"key\":11,\"name\":\"年份\",\"value\":[{\"n\":\"全部\",\"v\":\"\"},{\"n\":\"2021\",\"v\":\"2021\"},{\"n\":\"2020\",\"v\":\"2020\"},{\"n\":\"2019\",\"v\":\"2019\"},{\"n\":\"2018\",\"v\":\"2018\"},{\"n\":\"2017\",\"v\":\"2017\"},{\"n\":\"2016\",\"v\":\"2016\"},{\"n\":\"2015\",\"v\":\"2015\"},{\"n\":\"2014\",\"v\":\"2014\"},{\"n\":\"2013\",\"v\":\"2013\"},{\"n\":\"2012\",\"v\":\"2012\"},{\"n\":\"2011\",\"v\":\"2011\"},{\"n\":\"2010\",\"v\":\"2010\"},{\"n\":\"2009\",\"v\":\"2009\"},{\"n\":\"2008\",\"v\":\"2008\"},{\"n\":\"2007\",\"v\":\"2007\"},{\"n\":\"2006\",\"v\":\"2006\"},{\"n\":\"2005\",\"v\":\"2005\"},{\"n\":\"2004\",\"v\":\"2004\"}]},{\"key\":2,\"name\":\"排序\",\"value\":[{\"n\":\"时间\",\"v\":\"time\"},{\"n\":\"人气\",\"v\":\"hits\"},{\"n\":\"评分\",\"v\":\"score\"}]}],\"23\":[{\"key\":0,\"name\":\"类型\",\"value\":[{\"n\":\"全部\",\"v\":\"23\"},{\"n\":\"国产动漫\",\"v\":\"45\"},{\"n\":\"日本动漫\",\"v\":\"46\"},{\"n\":\"欧美动漫\",\"v\":\"47\"}]},{\"key\":11,\"name\":\"年份\",\"value\":[{\"n\":\"全部\",\"v\":\"\"},{\"n\":\"2021\",\"v\":\"2021\"},{\"n\":\"2020\",\"v\":\"2020\"},{\"n\":\"2019\",\"v\":\"2019\"},{\"n\":\"2018\",\"v\":\"2018\"},{\"n\":\"2017\",\"v\":\"2017\"},{\"n\":\"2016\",\"v\":\"2016\"},{\"n\":\"2015\",\"v\":\"2015\"},{\"n\":\"2014\",\"v\":\"2014\"},{\"n\":\"2013\",\"v\":\"2013\"},{\"n\":\"2012\",\"v\":\"2012\"},{\"n\":\"2011\",\"v\":\"2011\"},{\"n\":\"2010\",\"v\":\"2010\"},{\"n\":\"2009\",\"v\":\"2009\"},{\"n\":\"2008\",\"v\":\"2008\"},{\"n\":\"2007\",\"v\":\"2007\"},{\"n\":\"2006\",\"v\":\"2006\"},{\"n\":\"2005\",\"v\":\"2005\"},{\"n\":\"2004\",\"v\":\"2004\"}]},{\"key\":2,\"name\":\"排序\",\"value\":[{\"n\":\"时间\",\"v\":\"time\"},{\"n\":\"人气\",\"v\":\"hits\"},{\"n\":\"评分\",\"v\":\"score\"}]}]}");
         } catch (JSONException e) {
             SpiderDebug.log(e);
         }
@@ -76,9 +63,10 @@ public class Smdyy extends Spider {
         if (!TextUtils.isEmpty(url)) {
             headers.put("Referer", url);
         }
+        //headers.put("sec-ch-ua-platform","Windows");
         headers.put("Accept-Encoding", "gzip, deflate, br");
         headers.put("Upgrade-Insecure-Requests", "1");
-        headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36");
+        headers.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36");
         headers.put("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
         headers.put("Accept-Language", "zh-CN,zh;q=0.9");
         return headers;
@@ -95,26 +83,27 @@ public class Smdyy extends Spider {
         try {
             Document doc = Jsoup.parse(OkHttpUtil.string(siteUrl, getHeaders(siteUrl)));
             // 分类节点
-            Elements elements = doc.select("ul.stui-header__menu > li a");
+            Element cateList = doc.select("ul.nav-menu-items").get(0);
+            Elements elements = cateList.select("li > a");
+
             JSONArray classes = new JSONArray();
             for (Element ele : elements) {
-                String name = ele.text();
-                boolean show = true;
-                if (filter) {
-                    show = name.equals("电影") ||
-                            name.equals("电视剧") ||
-                            name.equals("动漫") ||
-                            name.equals("日韩剧") ||
-                            name.equals("欧美剧");
-                }
+                //分类名
+                String name = ele.attr("title");
+                boolean show = name.equals("电影") ||
+                        name.equals("剧集") ||
+                        name.equals("综艺") ||
+                        name.equals("动漫");
                 if (show) {
                     Matcher mather = regexCategory.matcher(ele.attr("href"));
                     if (!mather.find())
                         continue;
+                    // 把分类的id和名称取出来加到列表里
                     String id = mather.group(1).trim();
                     JSONObject jsonObject = new JSONObject();
                     jsonObject.put("type_id", id);
                     jsonObject.put("type_name", name);
+                    //System.out.println(id+"："+name);
                     classes.put(jsonObject);
                 }
             }
@@ -124,19 +113,18 @@ public class Smdyy extends Spider {
             }
             result.put("class", classes);
             try {
-                Elements list = doc.select("div.stui-pannel div.stui-pannel__bd ul.stui-vodlist li div.stui-vodlist__box");
+                // 取首页推荐视频列表
+                Element homeList = doc.select("div.module-items").get(0);
+                Elements list = homeList.select("div.module-item");
                 JSONArray videos = new JSONArray();
                 for (int i = 0; i < list.size(); i++) {
                     Element vod = list.get(i);
-                    Matcher matcher = regexVid.matcher(vod.selectFirst(".stui-vodlist__thumb").attr("href"));
+                    String title = vod.selectFirst(".module-item-titlebox a").text();
+                    String cover = vod.selectFirst(".module-item-pic > img").attr("data-src");
+                    String remark = vod.selectFirst(".module-item-text").text();
+                    Matcher matcher = regexVid.matcher(vod.selectFirst(".module-item-titlebox a").attr("href"));
                     if (!matcher.find())
                         continue;
-                    String title = vod.selectFirst(".stui-vodlist__thumb").attr("title");
-                    String cover = vod.selectFirst(".stui-vodlist__thumb").attr("data-original");
-                    String remark = vod.selectFirst("span.pic-text").text();
-                    if (!TextUtils.isEmpty(cover) && !cover.startsWith("http")) {
-                        cover = siteUrl + cover;
-                    }
                     String id = matcher.group(1);
                     JSONObject v = new JSONObject();
                     v.put("vod_id", id);
@@ -175,31 +163,31 @@ public class Smdyy extends Spider {
                 for (Iterator<String> it = extend.keySet().iterator(); it.hasNext(); ) {
                     String key = it.next();
                     String value = extend.get(key);
-                    if (value.trim().length() == 0)
-                        continue;
                     urlParams[Integer.parseInt(key)] = URLEncoder.encode(value);
                 }
             }
             // 获取分类数据的url
-            String url = siteUrl + "/show/" + TextUtils.join("-", urlParams) + "/";
+            String url = siteUrl + "/yingpianshow/" + TextUtils.join("-", urlParams) + "/";
             String html = OkHttpUtil.string(url, getHeaders(url));
             Document doc = Jsoup.parse(html);
             JSONObject result = new JSONObject();
             int pageCount = 0;
             int page = -1;
 
-            Elements pageInfo = doc.select(".stui-page__item li");
+
+            // 取页码相关信息
+            Elements pageInfo = doc.select("div.module-footer > div > a");
             if (pageInfo.size() == 0) {
                 page = Integer.parseInt(pg);
                 pageCount = page;
             } else {
                 for (int i = 0; i < pageInfo.size(); i++) {
-                    Element li = pageInfo.get(i);
-                    Element a = li.selectFirst("a");
+                    Element a = pageInfo.get(i);
+                    //Element a = li.selectFirst("a");
                     if (a == null)
                         continue;
                     String name = a.text();
-                    if (page == -1 && li.hasClass("active")) {
+                    if (page == -1 && a.hasClass("display")) {
                         Matcher matcher = regexPage.matcher(a.attr("href"));
                         if (matcher.find()) {
                             page = Integer.parseInt(matcher.group(1).split("-")[8]);
@@ -221,16 +209,15 @@ public class Smdyy extends Spider {
 
             JSONArray videos = new JSONArray();
             if (!html.contains("没有找到您想要的结果哦")) {
-                Elements list = doc.select("ul.stui-vodlist li div.stui-vodlist__box");
+                // 取当前分类页的视频列表
+
+                Elements list = doc.select("div.module-items > div.module-item");
                 for (int i = 0; i < list.size(); i++) {
                     Element vod = list.get(i);
-                    String title = vod.selectFirst(".stui-vodlist__thumb").attr("title");
-                    String cover = vod.selectFirst(".stui-vodlist__thumb").attr("data-original");
-                    if (!TextUtils.isEmpty(cover) && !cover.startsWith("http")) {
-                        cover = siteUrl + cover;
-                    }
-                    String remark = vod.selectFirst("span.pic-text").text();
-                    Matcher matcher = regexVid.matcher(vod.selectFirst(".stui-vodlist__thumb").attr("href"));
+                    String title = vod.selectFirst(".module-item-titlebox a").text();
+                    String cover = vod.selectFirst(".module-item-pic > img").attr("data-src");
+                    String remark = vod.selectFirst(".module-item-text").text();
+                    Matcher matcher = regexVid.matcher(vod.selectFirst(".module-item-titlebox a").attr("href"));
                     if (!matcher.find())
                         continue;
                     String id = matcher.group(1);
@@ -244,8 +231,8 @@ public class Smdyy extends Spider {
             }
             result.put("page", page);
             result.put("pagecount", pageCount);
-            result.put("limit", 48);
-            result.put("total", pageCount <= 1 ? videos.length() : pageCount * 48);
+            result.put("limit", 72);
+            result.put("total", pageCount <= 1 ? videos.length() : pageCount * 72);
 
             result.put("list", videos);
             return result.toString();
@@ -255,21 +242,6 @@ public class Smdyy extends Spider {
         return "";
     }
 
-
-    private static String Regex(Pattern pattern, String content) {
-        if (pattern == null) {
-            return content;
-        }
-        try {
-            Matcher matcher = pattern.matcher(content);
-            if (matcher.find()) {
-                return matcher.group(1).trim();
-            }
-        } catch (Exception e) {
-            SpiderDebug.log(e);
-        }
-        return content;
-    }
     /**
      * 视频详情信息
      *
@@ -280,25 +252,45 @@ public class Smdyy extends Spider {
     public String detailContent(List<String> ids) {
         try {
             // 视频详情url
-            String url = siteUrl + "/kan/" + ids.get(0) + ".html";
+            String url = siteUrl + "/yingpiandetail/" + ids.get(0) + ".html";
+            //System.out.println(url);
             Document doc = Jsoup.parse(OkHttpUtil.string(url, getHeaders(url)));
             JSONObject result = new JSONObject();
             JSONObject vodList = new JSONObject();
 
             // 取基本数据
-            String cover = doc.selectFirst("a.pic img").attr("data-original");
-            if (!TextUtils.isEmpty(cover) && !cover.startsWith("http")) {
-                cover = siteUrl + cover;
+            String cover = doc.selectFirst("div.video-cover .module-item-pic > img").attr("data-src");
+            String title = doc.selectFirst("div.video-cover .module-item-pic > a").attr("alt");
+            String desc = Jsoup.parse(doc.selectFirst("meta[name=description]").attr("content")).text();
+            String category = "", area = "", year = "", remark = "", director = "", actor = "";
+            Elements span_text_muted = doc.select("div.video-info-main span.video-info-itemtitle");
+            for (int i = 0; i < span_text_muted.size(); i++) {
+                Element text = span_text_muted.get(i);
+                String info = text.text();
+                if (info.equals("分类：")) {
+                    category = text.nextElementSibling().text();
+                } else if (info.equals("上映：")) {
+                    year = text.nextElementSibling().text();
+                } else if (info.equals("地区：")) {
+                    area = text.nextElementSibling().text();
+                } else if (info.equals("更新：")) {
+                    remark = text.nextElementSibling().text();
+                } else if (info.equals("导演：")) {
+                    List<String> directors = new ArrayList<>();
+                    Elements aa = text.parent().select("a");
+                    for (int j = 0; j < aa.size(); j++) {
+                        directors.add(aa.get(j).text());
+                    }
+                    director = TextUtils.join(",", directors);
+                } else if (info.equals("主演：")) {
+                    List<String> actors = new ArrayList<>();
+                    Elements aa = text.parent().select("a");
+                    for (int j = 0; j < aa.size(); j++) {
+                        actors.add(aa.get(j).text());
+                    }
+                    actor = TextUtils.join(",", actors);
+                }
             }
-            String title = doc.selectFirst("div.stui-content__detail h1.title").text();
-            String category = "", area = "", year = "", remark = "", director = "", actor = "", desc = "";
-            Elements data = doc.select("p.data");
-            desc = doc.selectFirst("span.detail-content").text().trim();
-            category = Regex(Pattern.compile("类型：(\\S+)"), data.get(0).text());
-            area = Regex(Pattern.compile("地区：(\\S+)"), data.get(0).text());
-            year = Regex(Pattern.compile("年份：(\\S+)"), data.get(0).text());
-            actor = Regex(Pattern.compile("主演：(\\S+)"), data.get(1).text());
-            director = Regex(Pattern.compile("导演：(\\S+)"), data.get(1).text());
 
             vodList.put("vod_id", ids.get(0));
             vodList.put("vod_name", title);
@@ -310,7 +302,7 @@ public class Smdyy extends Spider {
             vodList.put("vod_actor", actor);
             vodList.put("vod_director", director);
             vodList.put("vod_content", desc);
-
+            //System.out.println(vodList.toString());
             Map<String, String> vod_play = new TreeMap<>(new Comparator<String>() {
                 @Override
                 public int compare(String o1, String o2) {
@@ -330,18 +322,19 @@ public class Smdyy extends Spider {
             });
 
             // 取播放列表数据
-            Elements sources = doc.select("div.stui-vodlist__head");
-            //Elements sourceList = doc.select("div.stui-vodlist__head > ul.stui-content__playlist");
-
+            Elements sources = doc.select("div.module-tab-content").get(0).select("div > span");
+            //System.out.println(sources.size());
+            Elements sourceList = doc.select("div.module-player-list");
+            //System.out.println(sourceList.size());
             for (int i = 0; i < sources.size(); i++) {
                 Element source = sources.get(i);
-                String sourceName = source.selectFirst("h3").text().trim();
+                //System.out.println(sources.text().split("：")[0].split("』")[1]);
+                String sourceName = source.text();
                 boolean found = false;
                 for (Iterator<String> it = playerConfig.keys(); it.hasNext(); ) {
                     String flag = it.next();
-                    if (playerConfig.getJSONObject(flag).getString("show").equals(sourceName)) {
-                        //sourceName = flag;
-                        sourceName = playerConfig.getJSONObject(flag).getString("show");
+                    if (playerConfig.getJSONObject(flag).getString("sh").equals(sourceName)) {
+                        sourceName = flag;
                         found = true;
                         break;
                     }
@@ -349,7 +342,8 @@ public class Smdyy extends Spider {
                 if (!found)
                     continue;
                 String playList = "";
-                Elements playListA = source.select("ul.stui-content__playlist > li > a");
+                Elements playListA = sourceList.get(i).select(".scroll-content > a");
+                //System.out.println(playListA.size());
                 List<String> vodItems = new ArrayList<>();
 
                 for (int j = 0; j < playListA.size(); j++) {
@@ -385,6 +379,7 @@ public class Smdyy extends Spider {
         return "";
     }
 
+
     /**
      * 获取视频播放信息
      *
@@ -393,75 +388,51 @@ public class Smdyy extends Spider {
      * @param vipFlags 所有可能需要vip解析的源
      * @return
      */
-
-    private final Pattern urlt = Pattern.compile("\"url\": *\"([^\"]*)\",");
-    private final Pattern token = Pattern.compile("\"token\": *\"([^\"]*)\"");
-    private final Pattern vkey = Pattern.compile("\"vkey\": *\"([^\"]*)\",");
-
     @Override
     public String playerContent(String flag, String id, List<String> vipFlags) {
         try {
+            //定义播放用的headers
             JSONObject headers = new JSONObject();
-            headers.put("Referer", " https://www.smdyy.cc/");
-            headers.put("User-Agent", " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36");
-            headers.put("Accept", " text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
-            headers.put("Accept-Language", " zh-CN,zh;q=0.9,en-GB;q=0.8,en-US;q=0.7,en;q=0.6");
-            headers.put("Accept-Encoding", " gzip, deflate");
-            String url = siteUrl + "/play/" + id + ".html";
-            Elements allScript = Jsoup.parse(OkHttpUtil.string(url, getHeaders(url))).select("script");
+            //headers.put("Host", " cokemv.co");
+            //headers.put("origin", " https://juhi.cc");
+            //headers.put("User-Agent", " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36");
+            //headers.put("Accept", " */*");
+            //headers.put("Accept-Language", " zh-CN,zh;q=0.9,en-US;q=0.3,en;q=0.7");
+            //headers.put("Accept-Encoding", " gzip, deflate, br");
+
+
+            // 播放页 url
+            String url = siteUrl + "/yingpianplay/" + id + "/";
+            Document doc = Jsoup.parse(OkHttpUtil.string(url, getHeaders(url)));
+            Elements allScript = doc.select("script");
             JSONObject result = new JSONObject();
             for (int i = 0; i < allScript.size(); i++) {
                 String scContent = allScript.get(i).html().trim();
-                if (scContent.startsWith("var player_")) {
-                    JSONObject player = new JSONObject(scContent.substring(scContent.indexOf('{'), scContent.lastIndexOf('}') + 1));
+                if (scContent.startsWith("var player_")) { // 取直链
+                    int start = scContent.indexOf('{');
+                    int end = scContent.lastIndexOf('}') + 1;
+                    String json = scContent.substring(start, end);
+                    JSONObject player = new JSONObject(json);
                     if (playerConfig.has(player.getString("from"))) {
-                    JSONObject pCfg = playerConfig.getJSONObject(player.getString("from"));
-                    //String jxurl = "https://player.tjomet.com/lgyy/?url=" + player.getString("url");
-                    String jxurl = pCfg.getString("parse") + player.getString("url");
-                    Document doc = Jsoup.parse(OkHttpUtil.string(jxurl, getHeaders(jxurl)));
-                    Elements script = doc.select("body>script");
-                    for (int j = 0; j < script.size(); j++) {
-                        String Content = script.get(j).html().trim();
-                        Matcher matcher = urlt.matcher(Content);
-                        if (!matcher.find()) {
-                            return "";
-                        }
-                        String urlt = matcher.group(1);
-                        Matcher matcher1 = token.matcher(Content);
-                        if (!matcher1.find()) {
-                            return "";
-                        }
-                        String token = matcher1.group(1);
-                        Matcher matcher2 = vkey.matcher(Content);
-                        if (!matcher2.find()) {
-                            return "";
-                        }
-                        String vkey = matcher2.group(1);
-                        HashMap hashMap = new HashMap();
-                        hashMap.put("token", token);
-                        hashMap.put("url", urlt);
-                        hashMap.put("vkey", vkey);
-                        hashMap.put("sign", "D4GE4tm2Q3NXbeeK");
-                        OkHttpUtil.post(OkHttpUtil.defaultClient(), "https://player.6080kan.cc/player/hd0L3TjH4m8zSK1N.php", hashMap, new OKCallBack.OKCallBackString() {
-                            @Override
-                            protected void onFailure(Call call, Exception exc) {
+                        JSONObject pCfg = playerConfig.getJSONObject(player.getString("from"));
+                        String videoUrl = player.getString("url");
+                        String playUrl = pCfg.getString("pu");
+                        if (Misc.isVip(videoUrl)) { // 使用jx:1
+                            try {
+                                result.put("parse", 1);
+                                result.put("jx", "1");
+                                result.put("url", videoUrl);
+                                return result.toString();
+                            } catch (Exception e) {
+                                SpiderDebug.log(e);
                             }
-
-                            public void onResponse(String str) {
-                                try {
-                                    String url = new String(Base64.decode(new JSONObject(str).getString("url").substring(8).getBytes(), 0));
-                                    result.put("url", url.substring(8, url.length() - 8));
-                                } catch (JSONException e) {
-                                    e.printStackTrace();
-                                }
-                            }
-                        });
+                        }
+                        result.put("parse", pCfg.getInt("sn"));
+                        result.put("playUrl", playUrl);
+                        result.put("url", videoUrl);
                         result.put("header", headers.toString());
-                        result.put("parse", 0);
-                        result.put("playUrl", "");
-
                     }
-                    }
+                    break;
                 }
             }
             return result.toString();
@@ -471,13 +442,7 @@ public class Smdyy extends Spider {
         return "";
     }
 
-    /**
-     * 搜索
-     *
-     * @param key
-     * @param quick 是否播放页的快捷搜索
-     * @return
-     */
+
     @Override
     public String searchContent(String key, boolean quick) {
         try {
@@ -485,6 +450,7 @@ public class Smdyy extends Spider {
                 return "";
             long currentTime = System.currentTimeMillis();
             String url = siteUrl + "/index.php/ajax/suggest?mid=1&wd=" + URLEncoder.encode(key) + "&limit=10&timestamp=" + currentTime;
+            //Document doc = Jsoup.parse(srr.content);
             JSONObject searchResult = new JSONObject(OkHttpUtil.string(url, getHeaders(url)));
             JSONObject result = new JSONObject();
             JSONArray videos = new JSONArray();
@@ -495,9 +461,6 @@ public class Smdyy extends Spider {
                     String id = vod.getString("id");
                     String title = vod.getString("name");
                     String cover = vod.getString("pic");
-                    if (!TextUtils.isEmpty(cover) && !cover.startsWith("http")) {
-                        cover = siteUrl + cover;
-                    }
                     JSONObject v = new JSONObject();
                     v.put("vod_id", id);
                     v.put("vod_name", title);
