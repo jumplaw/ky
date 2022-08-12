@@ -180,7 +180,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://kvymin.github.com/CatVod/XBiubiu/VOFLIX.json"
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/voflix.json"
     },
     {
       "key": "AB影院",
@@ -190,7 +190,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://kvymin.github.com/CatVod/XBiubiu/AB影院.json"
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/AB影院.json"
     },
     {
       "key": "Bili",
