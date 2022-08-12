@@ -193,16 +193,6 @@
       "ext": "https://kvymin.github.com/CatVod/XBiubiu/AB影院.json"
     },
     {
-      "key": "bdys",
-      "name": "哔嘀〔磁力测试〕",
-      "type": 3,
-      "api": "csp_XPbd",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
-    },
-    {
       "key": "Bili",
       "name": "B站〔SP〕",
       "type": 3,
