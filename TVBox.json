@@ -33,8 +33,18 @@
       "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
     },
     {
+          "key": "csp_xpath_czspp",
+          "name": "厂长资源(XP)",
+          "type": 3,
+          "api": "csp_XPath",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 0,
+          "ext": "https://kvymin.github.io/CatVod/Xpath/czspp.json"
+     },
+    {
       "key": "csp_xpath_saohuotv",
-      "name": "骚火影视(XPF)",
+      "name": "骚火影视〔XPF〕",
       "type": 3,
       "api": "csp_XPath",
       "searchable": 1,
@@ -42,16 +52,46 @@
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/Xpath/saohuotv.json"
     },
-    {
-      "key": "csp_biubiu_dmxq",
-      "name": "大米星球〔XB〕",
+   {
+      "key": "csp_xpath_libv",
+      "name": "Libvio〔XPF〕",
       "type": 3,
-      "api": "csp_XBiubiu",
+      "api": "csp_XPathMacFilter",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XBiubiu/dmxq.json"
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/libv.json"
     },
+    {
+      "key": "csp_xpath_cokemv",
+      "name": "Cokemv〔XPF〕",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/cokemv.json"
+    }, 
+    {
+          "key": "csp_xpath_Jumi",
+          "name": "剧迷TV(XPF)",
+          "type": 3,
+          "api": "csp_XPathMacFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Jumi.json"
+     }, 
+     {
+          "key": "csp_xpath_lranc",
+          "name": "天天影视(XPF)",
+          "type": 3,
+          "api": "csp_XPathMacFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/lranc.json"
+     },
     {
       "key": "剧白白",
       "name": "剧白白〔XPF〕",
@@ -73,6 +113,56 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
     },
     {
+          "key": "csp_xpath_xxys520",
+          "name": "小熊影视(XPF)",
+          "type": 3,
+          "api": "csp_XPathFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/xxys520.json"
+     }, 
+    {
+          "key": "csp_xpath_348z",
+          "name": "348电影(XPF)",
+          "type": 3,
+          "api": "csp_XPathFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/348z.json"
+     }, 
+     {
+          "key": "csp_xpath_meiju56",
+          "name": "美剧网(XPF)",
+          "type": 3,
+          "api": "csp_XPathFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/meiju562.json"
+     }, 
+     {
+          "key": "csp_xpath_Gimy",
+          "name": "GIMY影视(XPF)",
+          "type": 3,
+          "api": "csp_XPathMacFilter",
+          "searchable": 0,
+          "quickSearch": 0,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy.json"
+     }, 
+    {
+          "key": "csp_xpath_Gimy2",
+          "name": "GimyTV(XPF)",
+          "type": 3,
+          "api": "csp_XPathMacFilter",
+          "searchable": 0,
+          "quickSearch": 0,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy2.json"
+     }, 
+    {
       "key": "csp_xpath_hhys",
       "name": "火火影视〔XPF〕",
       "type": 3,
@@ -84,7 +174,7 @@
     },
     {
       "key": "csp_xpath_喵乐",
-      "name": "喵乐(XPF)",
+      "name": "喵乐〔XPF〕",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
@@ -92,6 +182,46 @@
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/喵乐.json"
     },
+   {
+          "key": "csp_xpath_6d",
+          "name": "六度TV(XPF)",
+          "type": 3,
+          "api": "csp_XPathFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/6d.json"
+     },
+     {
+          "key": "csp_xpath_dandanzan10",
+          "name": "蛋蛋赞(电影)(XPF)",
+          "type": 3,
+          "api": "csp_XPathFilter",
+          "searchable": 0,
+          "quickSearch": 0,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dandanzan10.json"
+     }, 
+     {
+          "key": "csp_xpath_4kpianku",
+          "name": "4k片库网(XPF)",
+          "type": 3,
+          "api": "csp_XPathMacFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/4kpianku.json"
+     }, 
+     {
+          "key": "csp_xpath_xiangdao",
+          "name": "农民影视(XPF)",
+          "type": 3,
+          "api": "csp_XPathMacFilter",
+          "searchable": 1,
+          "quickSearch": 1,
+          "filterable": 1,
+          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/xiangdao.json"
+     },
     {
       "key": "csp_xpath_naifeiorg",
       "name": "奈飞中文〔XPF〕",
@@ -114,13 +244,23 @@
     },
     {
       "key": "csp_appys_美剧虫",
-      "name": "美剧虫(XPF)",
+      "name": "美剧虫〔XPF〕",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/meijuchong.json"
+    },
+    {
+      "key": "csp_biubiu_dmxq",
+      "name": "大米星球〔XB〕",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/dmxq.json"
     },
     {
       "key": "csp_biubiu_kdys",
@@ -347,7 +487,7 @@
           "芒果"
         ],
         "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
+          "User-Agent": "Dart/2.14 〔dart:io〕"
         }
       }
     },
@@ -374,7 +514,7 @@
           "腾播线路"
         ],
         "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
+          "User-Agent": "Dart/2.14 〔dart:io〕"
         }
       }
     },
