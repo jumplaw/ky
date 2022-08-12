@@ -343,16 +343,6 @@
       "ext": "https://kvymin.github.io/CatVod/sub/Bili.json"
     },
     {
-      "key": "push_agent",
-      "name": "推送〔SP〕",
-      "type": 3,
-      "api": "csp_PushAgent",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "3a49cf29cf20410997247c6eb4509be9"
-    },
-    {
       "key": "csp_xml_木子看剧",
       "name": "🐝木子看剧〔聚〕",
       "type": 1,
@@ -426,12 +416,13 @@
     },
     {
       "key": "push_agent",
-      "name": "推送",
-      "type": 0,
+      "name": "推送〔SP〕",
+      "type": 3,
       "api": "csp_PushAgent",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 0,
+      "ext": "3a49cf29cf20410997247c6eb4509be9"
     }
   ],
   "lives": [
