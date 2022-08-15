@@ -1,7 +1,8 @@
 {
-  //"wallpaper": "https://picsum.photos/1280/720/?blur=10",
+  
   //"spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;d63fe3db21b48e04884c2d5303907bd1",
   //"spider": "https://kvymin.github.io/CatVod/jar/kmys.jar;md5;c6c3abb8b47fc5509434a4cca224cd32",
+  "wallpaper": "https://picsum.photos/1280/720/?blur=10",
   "spider": "https://kvymin.github.io/CatVod/jar/juhuang.jar;md5;076e2157530714a37606e1599c01a19a",
   "sites": [
     {
@@ -277,28 +278,204 @@
       "url": "Sequence"
     },
     {
-      "name":"搬运",
-      "type":1,
-      "url":"https://jx.bynote.top/API.php?url=",
-      "ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}
+      "name": "油果",
+      "type": 1,
+      "url": "http://json.youguo520.top/fufeng/?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "iqiyi",
+          "奇艺",
+          "爱奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "xigua",
+          "西瓜",
+          "sohu",
+          "搜狐",
+          "cntv",
+          "cctv",
+          "央视",
+          "1905",
+          "m1905"
+        ],
+        "header": {
+          "User-Agent": "Dart/2.14 (dart:io)"
+        }
+      }
     },
     {
-     "name":"爱豆",
-     "type":1,
-     "url":"http://id190.tpddns.cn:81/jsonch/?url=",
-     "ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}
+      "name": "无名",
+      "type": 0,
+      "url": "https://www.daga.cc/vip1/?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "qq",
+          "letv",
+          "sohu",
+          "youku",
+          "mgtv",
+          "bilibili",
+          "wasu",
+          "xigua",
+          "1905"
+        ]
+      }
     },
     {
-     "name":"油果",
-     "type":1,
-     "url":"http://json.youguo520.top/fufeng/?url=",
-     "ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
-   },
-   {
-     "name":"视界",
-     "type": 1,
-     "url": "http://150.230.216.174/tvjx.php?url=",
-     "ext": {"flag": ["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"],"header": {"User-Agent": "Dart/2.14 (dart:io)"}}},{"name":"江湖","type":1,"url":"http://211.99.99.236:4567/jhjson/ceshi.php?url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}
+      "name": "搬运",
+      "type": 1,
+      "url": "https://jx.bynote.top/API.php?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "iqiyi",
+          "奇艺",
+          "爱奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "xigua",
+          "西瓜",
+          "sohu",
+          "搜狐",
+          "cntv",
+          "cctv",
+          "央视",
+          "1905",
+          "m1905"
+        ]
+      }
+    },
+    {
+      "name": "爱豆",
+      "type": 1,
+      "url": "http://id190.tpddns.cn:81/jsonch/?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "iqiyi",
+          "奇艺",
+          "爱奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "xigua",
+          "西瓜",
+          "sohu",
+          "搜狐",
+          "cntv",
+          "cctv",
+          "央视",
+          "1905",
+          "m1905"
+        ]
+      }
+    },
+    {
+      "name": "视界",
+      "type": 1,
+      "url": "http://150.230.216.174/tvjx.php?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "iqiyi",
+          "奇艺",
+          "爱奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "xigua",
+          "西瓜",
+          "sohu",
+          "搜狐",
+          "cntv",
+          "cctv",
+          "央视",
+          "1905",
+          "m1905"
+        ],
+        "header": {
+          "User-Agent": "Dart/2.14 (dart:io)"
+        }
+      }
+    },
+    {
+      "name": "江湖",
+      "type": 1,
+      "url": "http://211.99.99.236:4567/jhjson/ceshi.php?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "iqiyi",
+          "奇艺",
+          "爱奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "mgtv",
+          "芒果",
+          "xigua",
+          "西瓜",
+          "sohu",
+          "搜狐",
+          "cntv",
+          "cctv",
+          "央视",
+          "1905",
+          "m1905"
+        ]
+      }
     },
     {
       "name": "nxflv",
@@ -306,9 +483,9 @@
       "url": "https://vip.nxflv.com/home/api?uid=701203&key=bltuyCEFKLTX013679&url="
     },
     {
-      "name":"综合",
-      "type":0,
-      "url":"https://okjx.cc/?url="
+      "name": "综合",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
     },
     {
       "name": "parwix",
@@ -341,27 +518,6 @@
         ]
       }
     }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "pptv",
-    "mgtv",
-    "wasu",
-    "bilibili",
-    "xigua",
-    "renrenmi",
-    "ltnb",
-    "CL4K",
-    "rx",
-    "dmplay",
-    "duoduozy",
-    "xfyun"
   ],
   "ijk": [
     {
