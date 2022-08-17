@@ -23,7 +23,7 @@
     },
     {
       "key": "Yisou",
-      "name": "一搜",
+      "name": "易搜",
       "type": 3,
       "api": "csp_Yisou",
       "searchable": 1,
@@ -33,7 +33,7 @@
     },
     {
       "key": "AliPS",
-      "name": "盘搜〔SP〕",
+      "name": "盘搜",
       "type": 3,
       "api": "csp_AliPS",
       "searchable": 1,
