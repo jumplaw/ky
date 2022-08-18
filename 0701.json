@@ -214,14 +214,14 @@
       "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
     },
     {
-      "key": "csp_桔子TV",
-      "name": "桔子TV〔XPF〕",
+      "key": "csp_biubiu_宝仙HD",
+      "name": "宝仙HD〔XB〕",
       "type": 3,
-      "api": "csp_XPathMacFilter",
+      "api": "csp_XBiubiu",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/桔子TV.json"
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/宝仙HD.json"
     },
     {
       "key": "Gitcafe",
