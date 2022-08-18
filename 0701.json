@@ -6,7 +6,7 @@
   "sites": [
     {
       "key": "厂长影视",
-      "name": "厂长影视〔SP〕",
+      "name": "🐝厂长影视〔SP〕",
       "type": 3,
       "api": "csp_Czsapp",
       "searchable": 1,
@@ -24,7 +24,7 @@
     },
     {
       "key": "七七",
-      "name": "七七〔SP〕",
+      "name": "⛈七七〔SP〕",
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
@@ -42,7 +42,7 @@
     },
     {
       "key": "神马影院",
-      "name": "神马影院〔SP〕",
+      "name": "🦄神马影院〔SP〕",
       "type": 3,
       "api": "csp_Smdyy",
       "searchable": 1,
@@ -60,7 +60,7 @@
     },
     {
       "key": "Kuaikan",
-      "name": "快看〔SP〕",
+      "name": "👁️快看〔SP〕",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
@@ -132,7 +132,7 @@
     },
     {
       "key": "小苹果",
-      "name": "小苹果〔SP〕",
+      "name": "🍎小苹果〔SP〕",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -218,7 +218,7 @@
     },
     {
       "key": "zhaozy",
-      "name": "找资源〔SP〕",
+      "name": "找资源〔只支持搜索〕",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
@@ -228,7 +228,7 @@
     },
     {
       "key": "AliPS",
-      "name": "盘搜〔SP〕",
+      "name": "盘搜〔只支持搜索〕",
       "type": 3,
       "api": "csp_AliPS",
       "searchable": 1,
