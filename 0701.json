@@ -15,7 +15,7 @@
     },
     {
       "key": "360",
-      "name": "360〔SP〕",
+      "name": "🎞360〔SP〕",
       "type": 3,
       "api": "csp_SP360",
       "searchable": 1,
@@ -33,7 +33,7 @@
     },
     {
       "key": "剧荒TV（SP）",
-      "name": "剧荒TV（SP）",
+      "name": "🕊剧荒TV（SP）",
       "type": 3,
       "api": "csp_Juhuang",
       "searchable": 1,
@@ -51,7 +51,7 @@
     },
     {
       "key": "酷猫",
-      "name": "酷猫〔SP〕",
+      "name": "🐱酷猫〔SP〕",
       "type": 3,
       "api": "csp_Kmys",
       "searchable": 1,
@@ -69,7 +69,7 @@
     },
     {
       "key": "小熊",
-      "name": "小熊TV〔SP〕",
+      "name": "🤡小熊TV〔SP〕",
       "type": 3,
       "api": "csp_Xxys",
       "searchable": 1,
@@ -78,7 +78,7 @@
     },
     {
       "key": "zxzj",
-      "name": "在线之家〔SP〕",
+      "name": "🌅在线之家〔SP〕",
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
@@ -87,7 +87,7 @@
     },
     {
       "key": "Cokemv",
-      "name": "Cokemv〔SP〕",
+      "name": "🐌Cokemv〔SP〕",
       "type": 3,
       "api": "csp_Cokemv",
       "searchable": 1,
@@ -96,7 +96,7 @@
     },
     {
       "key": "Auete",
-      "name": "Auete〔SP〕",
+      "name": "🦊Auete〔SP〕",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -105,7 +105,7 @@
     },
     {
       "key": "Lib",
-      "name": "Libvio〔SP〕",
+      "name": "🐠Libvio〔SP〕",
       "type": 3,
       "api": "csp_Lib",
       "searchable": 1,
@@ -114,7 +114,7 @@
     },
     {
       "key": "Ikan",
-      "name": "Ikan〔SP〕",
+      "name": "🥝Ikan〔SP〕",
       "type": 3,
       "api": "csp_IKan",
       "searchable": 1,
@@ -123,7 +123,7 @@
     },
     {
       "key": "Olevod",
-      "name": "Olevod〔SP〕",
+      "name": "🐿Olevod〔SP〕",
       "type": 3,
       "api": "csp_Olevod",
       "searchable": 1,
@@ -141,7 +141,7 @@
     },
     {
       "key": "Nfyun",
-      "name": "Nf云〔SP〕",
+      "name": "🌈Nf云〔SP〕",
       "type": 3,
       "api": "csp_Nfyun",
       "searchable": 1,
@@ -150,7 +150,7 @@
     },
     {
       "key": "小宝影院",
-      "name": "小宝影院〔SP〕",
+      "name": "🛴小宝影院〔SP〕",
       "type": 3,
       "api": "csp_Xiaoh",
       "searchable": 1,
@@ -159,7 +159,7 @@
     },
     {
       "key": "If101",
-      "name": "If101〔SP〕",
+      "name": "🌤If101〔SP〕",
       "type": 3,
       "api": "csp_If101",
       "searchable": 1,
@@ -168,7 +168,7 @@
     },
     {
       "key": "Bili",
-      "name": "B站〔SP〕",
+      "name": "📸B站〔SP〕",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -178,7 +178,7 @@
     },
     {
       "key": "csp_Xpath_lezhu",
-      "name": "乐猪影视〔XPM〕",
+      "name": "🐷乐猪影视〔XPM〕",
       "type": 3,
       "api": "csp_XPathMac",
       "searchable": 1,
@@ -188,7 +188,7 @@
     },
     {
       "key": "bdys",
-      "name": "哔嘀〔磁力测试〕",
+      "name": "🤹哔嘀〔磁力测试〕",
       "type": 3,
       "api": "csp_XPbd",
       "searchable": 1,
@@ -198,7 +198,7 @@
     },
     {
       "key": "csp_biubiu_555电影",
-      "name": "555电影〔XB〕",
+      "name": "🐧555电影〔XB〕",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
@@ -208,7 +208,7 @@
     },
     {
       "key": "Gitcafe",
-      "name": "小纸条〔SP〕",
+      "name": "🦥小纸条〔SP〕",
       "type": 3,
       "api": "csp_Gitcafe",
       "searchable": 1,
@@ -218,7 +218,7 @@
     },
     {
       "key": "zhaozy",
-      "name": "找资源〔只支持搜索〕",
+      "name": "🌸找资源〔只支持搜索〕",
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
@@ -228,7 +228,7 @@
     },
     {
       "key": "AliPS",
-      "name": "盘搜〔只支持搜索〕",
+      "name": "🍬盘搜〔支持阿里/磁力〕",
       "type": 3,
       "api": "csp_AliPS",
       "searchable": 1,
@@ -238,7 +238,7 @@
     },
     {
       "key": "push_agent",
-      "name": "推送〔SP〕",
+      "name": "🐸推送〔SP〕",
       "type": 3,
       "api": "csp_PushAgent",
       "searchable": 0,
