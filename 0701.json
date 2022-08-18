@@ -1,7 +1,5 @@
 {
   //"spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;b4bb327affb2630d9d009f98ddffa3a9",
-  //"spider": "https://kvymin.github.io/CatVod/jar/kmys.jar;md5;c6c3abb8b47fc5509434a4cca224cd32",
-  //"spider": "https://kvymin.github.io/CatVod/jar/juhuang.jar;md5;076e2157530714a37606e1599c01a19a",
   "wallpaper": "https://picsum.photos/1280/720/?blur=10",
   "spider": "https://kvymin.github.io/CatVod/jar/xinbiubiu.jar;md5;15cd0613f3a07773b8bb9602d7411346",
   "sites": [
