@@ -214,14 +214,14 @@
       "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
     },
     {
-      "key": "csp_biubiu_555电影",
-      "name": "555电影〔XB〕",
+      "key": "csp_biubiu_橘子tv",
+      "name": "橘子tv〔XB〕",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XBiubiu/555电影.json"
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/juzi.json"
     },
     {
       "key": "Gitcafe",
