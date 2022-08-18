@@ -247,7 +247,7 @@
     },
     {
       "key": "AliPS",
-      "name": "🍬盘搜〔支持阿里/磁力〕",
+      "name": "🍬盘搜〔只支持搜索〕",
       "type": 3,
       "api": "csp_AliPS",
       "searchable": 1,
@@ -257,7 +257,7 @@
     },
     {
       "key": "push_agent",
-      "name": "🐸推送〔SP〕",
+      "name": "🐸推送〔支持阿里/磁力〕",
       "type": 3,
       "api": "csp_PushAgent",
       "searchable": 0,
