@@ -226,7 +226,7 @@
     },
     {
       "key": "Gitcafe",
-      "name": "小纸条〔SP〕",
+      "name": "📜小纸条〔SP〕",
       "type": 3,
       "api": "csp_Gitcafe",
       "searchable": 1,
