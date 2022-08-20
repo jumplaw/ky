@@ -3,15 +3,6 @@
   "spider": "https://kvymin.github.io/CatVod/jar/custom_spider_0808.jar;md5;06ed1a662fc19e4ea22f60f02770f4b6",
   "sites": [
     {
-      "key": "csp_CZSPP",
-      "name": "厂长资源",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "Lezhu_spider",
       "name": "乐猪影视",
       "api": "csp_Lezhu",
@@ -160,14 +151,14 @@
       "ext": "https://Kvymin.github.io/CatVod/Bdys/Bdys.json"
     },
     {
-      "key": "csp_Xpath_lezhu",
-      "name": "乐猪影视(XPM)",
+      "key": "csp_Xpath_bttwoo",
+      "name": "2BT〔XPM〕",
       "type": 3,
-      "api": "csp_XPathMac",
+      "api": "csp_XPath",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
+      "ext": "http://kvymin.github.io/CatVod/Xpath/bttwoo.json"
     },
     {
       "key": "csp_biubiu_dmxq",
