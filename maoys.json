@@ -12,6 +12,16 @@
       "filterable": 0
     },
     {
+      "key": "Lezhu_spider",
+      "name": "乐猪影视",
+      "api": "csp_Lezhu",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "ext": ""
+    },
+    {
       "key": "csp_77",
       "name": "酷云七七",
       "type": 3,
@@ -30,16 +40,6 @@
       "filterable": 1
     },
     {
-      "key": "293视频",
-      "name": "293视频",
-      "type": 3,
-      "api": "csp_SP293",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": ""
-    },
-    {
       "key": "小苹果",
       "name": "小苹果",
       "type": 3,
@@ -53,25 +53,6 @@
       "name": "追剧喵",
       "type": 3,
       "api": "csp_ZJMiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_hbys",
-      "name": "简影",
-      "type": 3,
-      "api": "csp_JianYing",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklEIjoyNTU5OSwiQ3JlYXRlZEF0IjoiMjAyMi0wNy0xN1QwOTo1OTowMy43MzIrMDg6MDAiLCJVcGRhdGVkQXQiOiIyMDIyLTA3LTE3VDA5OjU5OjAzLjczMiswODowMCIsIkRlbGV0ZWRBdCI6bnVsbCwidXNlcl9lbWFpbCI6ImppYW55aW5nOTk5QHFxLmNvbSIsInVzZXJfbmFtZSI6IiIsInVzZXJfcHdkIjoiIiwidXNlcl9pZCI6IjA1NzRiMzAyLTc5MzUtNGFlZi1hOTBkLTFlZjdjMTU3Y2U2MyIsInVzZXJfYW5zd2VyIjoiIiwibG9ja19pcyI6IkZhbHNlIiwiaXNfdHYiOiIiLCJpc19hZG1pbiI6IkZhbHNlIiwicmVnX3RpbWUiOm51bGwsInJlZ19rZXkiOiIiLCJ0dl90aW1lIjpudWxsLCJ0dl9rZXkiOiIifSwiZXhwIjoxNjU5MjQwNzQzLCJpc3MiOiJBbGZyZWRvIE1lbmRvemEifQ.xB1ZZAaYwrkyLF8bD1KyQKC2tmW0myIZgUQvTVQWELk"
-    },
-    {
-      "key": "酷猫",
-      "name": "酷猫",
-      "type": 3,
-      "api": "csp_Kmys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -103,15 +84,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "csp_DiDuan",
-      "name": "低端影视",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
     {
       "key": "csp_LibVio",
@@ -166,26 +138,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "Lezhu_spider",
-      "name": "乐猪影视",
-      "api": "csp_Lezhu",
-      "type": 3,
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "ext": ""
-    },
-    {
-	"key": "KanSJ_spider",
-	"name": "看视界",
-	"api": "csp_KanSJ",
-	"type": 3,
-	"filterable": 1,
-	"quickSearch": 1,
-	"searchable": 1,
-	"ext": ""
     },
     {
       "key": "csp_BBB",
