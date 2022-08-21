@@ -1,4 +1,6 @@
 {
+  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
+  "spider": "https://kvymin.github.io/CatVod/jar/0820.jar;md5;376002E983A56C4095BECFE0F99BB578",
   "sites": [
     {
       "key": "Lezhu_spider",
