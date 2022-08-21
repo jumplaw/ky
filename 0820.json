@@ -47,7 +47,7 @@
     },
     {
       "key": "csp_dd5555",
-      "name": "555影视（SP）",
+      "name": "555影视",
       "type": 3,
       "api": "csp_Dy555",
       "searchable": 1,
@@ -84,7 +84,7 @@
     },
     {
       "key": "csp_剧荒",
-      "name": "剧荒",
+      "name": "剧荒TV",
       "type": 3,
       "api": "csp_Juhuang",
       "searchable": 1,
@@ -234,7 +234,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://Kvymin.github.io/CatVod/sub/Bili.json"
+      "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
     },
     {
       "key": "csp_Nbys",
@@ -262,7 +262,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitea.com/Yoursmile/TVBox/raw/branch/main/Bili.json"
+      "ext": "https://kvymin.github.io/CatVod/sub/Bili.json"
     },
     {
       "key": "csp_Blixs",
