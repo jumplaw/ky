@@ -1,6 +1,9 @@
 {
   "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;d63fe3db21b48e04884c2d5303907bd1",
   "sites": [
+    {"key": "293","name": "293","type": 4,"api": "http://z.kooo.eu.org/api/t4/293","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "泥巴","name": "泥巴(墙)","type": 4,"api": "http://z.kooo.eu.org/api/t4/nbys","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "迷你","name": "迷你","type": 4,"api": "http://z.kooo.eu.org/api/t4/mini","searchable": 1,"quickSearch": 1,"filterable": 1},
     {
       "key": "厂长影视",
       "name": "厂长影视〔SP〕",
