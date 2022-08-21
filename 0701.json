@@ -1,10 +1,10 @@
 {
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-  "spider": "https://kvymin.github.io/CatVod/jar/0820.jar;md5;376002E983A56C4095BECFE0F99BB578",
+  "spider": "https://kvymin.github.io/CatVod/jar/Mao0820.jar;md5;b4aa0673a4f7fa631769f137ee7e6c26",
   "sites": [
     {
       "key": "Lezhu_spider",
-      "name": "乐猪影视",
+      "name": "📽️乐猪影视",
       "type": 3,
       "api": "csp_Lezhu",
       "searchable": 1,
@@ -139,6 +139,15 @@
       "filterable": 0
     },
     {
+      "key": "csp_Bttoo",
+      "name": "两个BT",
+      "type": 3,
+      "api": "csp_Bttoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "spider_IKan",
       "name": "爱看",
       "type": 3,
@@ -220,10 +229,65 @@
       "filterable": 1
     },
     {
-      "key": "csp_Bttoo",
-      "name": "两个BT",
+      "key": "爱奇艺",
+      "name": "爱奇艺",
       "type": 3,
-      "api": "csp_Bttoo",
+      "api": "csp_MGTV",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "芒果TV",
+      "name": "🍋芒果TV",
+      "type": 3,
+      "api": "csp_IQIYI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "腾讯影视",
+      "name": "🐧腾讯影视",
+      "type": 3,
+      "api": "csp_QQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "少儿",
+        "电视剧",
+        "电影",
+        "动漫",
+        "纪录片",
+        "知识",
+        "学堂",
+        "综艺"
+      ]
+    },
+    {
+      "key": "csp_Yj1211",
+      "name": "1211直播",
+      "type": 3,
+      "api": "csp_Yj1211",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Anime1",
+      "name": "日本动漫",
+      "type": 3,
+      "api": "csp_Anime1",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Tkys",
+      "name": "天空影视",
+      "type": 3,
+      "api": "csp_Tkys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -361,7 +425,7 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9rdnltaW4uZ2l0aHViLmlvL0NhdFZvZC9saXZlL2xpdmUudHh0PQ=="
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vWW91cnNtaWxlL1RWQm94L3Jhdy9icmFuY2gvbWFpbi9saXZlLnR4dA=="
           ]
         }
       ]
@@ -382,44 +446,6 @@
       "name": "Json轮询",
       "type": 2,
       "url": "Sequence"
-    },
-    {
-      "name": "油果",
-      "type": 1,
-      "url": "http://json.youguo520.top/fufeng/?url=",
-      "ext": {
-        "flag": [
-          "qiyi",
-          "iqiyi",
-          "奇艺",
-          "爱奇艺",
-          "qq",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩",
-          "mgtv",
-          "芒果",
-          "xigua",
-          "西瓜",
-          "sohu",
-          "搜狐",
-          "cntv",
-          "cctv",
-          "央视",
-          "1905",
-          "m1905"
-        ],
-        "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
-        }
-      }
     },
     {
       "name": "GGTV快速",
@@ -763,7 +789,5 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ],
-  "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-  "spider": "https://kvymin.github.io/CatVod/jar/0820.jar;md5;376002E983A56C4095BECFE0F99BB578"
+  ]
 }
