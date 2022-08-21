@@ -83,15 +83,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_Tkys",
-      "name": "天空",
-      "type": 3,
-      "api": "csp_Tkys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_剧荒",
       "name": "剧荒",
       "type": 3,
@@ -144,16 +135,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
-    },
-    {
-      "key": "9E03",
-      "name": "9E03",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"
     },
     {
       "key": "spider_IKan",
@@ -253,7 +234,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitea.com/Yoursmile/TVBox/raw/branch/main/sub/Bdys.json"
+      "ext": "https://Kvymin.github.io/CatVod/sub/Bili.json"
     },
     {
       "key": "csp_Nbys",
