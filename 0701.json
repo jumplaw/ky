@@ -285,7 +285,7 @@
     },
     {
       "key": "csp_Tkys",
-      "name": "天空影视",
+      "name": "天空影视(墙外)",
       "type": 3,
       "api": "csp_Tkys",
       "searchable": 1,
