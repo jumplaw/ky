@@ -2,6 +2,15 @@
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "spider": "https://kvymin.github.io/CatVod/jar/0822.jar;md5;c80459e2708b5fdb8413b69d29926ac8",
   "sites": [
+     {
+      "key": "T4",
+      "name": "(T4)",
+      "type": 4,
+      "api": "https://t4.catvod.eu.org/catvod/gaze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "Lezhu_spider",
       "name": "📽️乐猪影视",
