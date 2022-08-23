@@ -1,6 +1,6 @@
 {
   //"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;df4fbf466881dbfa7fed3ab27aa1ff51",
+ //"spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;df4fbf466881dbfa7fed3ab27aa1ff51",
   "sites": [
    {
       "key": "注视",
@@ -19,25 +19,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "动漫巴士",
-      "name": "动漫巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_PushAgent",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "3a49cf29cf20410997247c6eb4509be9"
     }
   ],
   "lives": [
@@ -47,7 +28,7 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9rdnltaW4uZ2l0aHViLmlvL0NhdFZvZC9saXZlL0xpdmUudHh0"
+            "proxy://do=live&type=txt&ext="
           ]
         }
       ]
